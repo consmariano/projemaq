@@ -1,0 +1,4 @@
+- decidir um foco dentre as atividades (estudo de atuadores, integração mecanica, integração comunicação)
+- ⁠ler com muito detalhe o data sheet dos inversores, motores e encoder (tem na aba materiais dentro do nosso notion de atuadores)
+- ⁠levantar possíveis requisitos e especificações
+- ⁠dar uma olhada no diagrama de blocos e no kicad dos relatórios anteriores
