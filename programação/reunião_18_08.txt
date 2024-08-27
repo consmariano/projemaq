@@ -1,0 +1,5 @@
+Reunião 18 de agosto
+
+- Grupo combinou de aprender código G, através de materiais que o Vinicíos vai disponibilizar
+- Rodar simulações em peças mais simples, para verificar o funcionamento da configuração do LinuxCNC 
+- Escolher um programa para configuração de joystick 
