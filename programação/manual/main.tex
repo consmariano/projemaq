@@ -47,7 +47,7 @@ Aqui trataremos dos passos iniciais para começar a operar a máquina, ou seja, 
 
 \subsection{Inicialização e login}
 
-Antes de ligar o computador é recomendavél verificar que o Joystick esteja acoplado em uma entrada USB, uma vez que o LinuxCNC pode apresentar problemas de varredura de periféricos, ou seja, ele pode não detectar disposivos conectados após sua inicialização (apesar de que esse problema nunca se apresentou para o caso de pendrives).
+Antes de ligar o computador é recomendável verificar que o Joystick esteja acoplado em uma entrada USB, uma vez que o LinuxCNC pode apresentar problemas de varredura de periféricos, ou seja, ele pode não detectar disposivos conectados após sua inicialização (apesar de que esse problema nunca se apresentou para o caso de pendrives).
 
 O próximo passo é conectar a caixa de controle a \textbf{uma tomada de 220V} (na sala de laboratório essas tomadas tem cor vermelha), e então ligar a caixa. Note que a caixa deve ser ligada antes de se ligar o computador pelo mesmo problema de varredura anteriormente citado.
 
@@ -55,9 +55,9 @@ Com os passos anteriores feitos, o computador pode ser ligado. Para acessa-lo ba
 
 A última coisa a se fazer antes de se abrir o aplicativo do LinuxCNC é abrir um terminal e executar o comando: \textbf{qjoypad} para inicializar a aplicação que irá receber os inputs do Joystick e convertelos para comandos de teclado que o LinuxCNC comprende. 
 
-\subsection{Preparação para a execução de um código G}
+\subsection{Preparação para carregar um código G}
 
-Já com o aplicativo do LinuxCNC aberto, procure pelo botão vermelho de ligar no canto superior esquerdo da interface gráfica e ative-o. 
+Já com o aplicativo do LinuxCNC aberto, procure pelo botão vermelho de ligar no canto superior esquerdo da interface gráfica ou simplesmente utilize o botão "start" do Joystick, isso irá efetivamente ligar a máquina. 
 
 Com o controle manual (Joystick ou teclado) leve o torno para uma posição segura e então faça o \textbf{homing} dos eixos X e Z.
 
@@ -65,176 +65,47 @@ Para códigos G que descrevem diâmetros ao invés de raios (ou seja, códigos G
 
 Abra o código G da peça que você deseja produzir. Se houver algum erro na abertura modificações no código podem ser necessárias.
 
-\section{The Art of Layout-Design}
-\label{design}
-\label{Layout-Design}
-\index{layout design}
+\section{Definição do zero peça}
 
-\subsection{Common Rules}
-\index{rules}
+O zero peça é a referência relativa ao zero máquina que passamos ao LinuxCNC para que o mesmo saiba em que coordenadas o material bruto que deve ser torneado está localizado. Podem ser definidos, através de diferentes códigos G, diversos planos de corte, sendo o P0 o plano padrão, em coordenadas absolutas definidas na etapa de homing da máquina.
 
-There are almost no common rules because every kind of document has 
-different requirements and needs a specific layout. This layout 
-should consider \emph{who} will read the document, and \emph{how}.
+Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. A seguir, uma breve descrição do como usar a função do apalpador para definir o zero peça em cada um dos eixos.
 
-An important criteria is if the reader will read the document from 
-start to end like a detective novel (linear reading) or if he wants to 
-find certain information as in a telephone directory or a 
-reference manual.  \index{manual}\index{telephone directory}
+\subsection{Eixo Z}
 
-In addition to that, the layout has to consider certain conventions, 
-like the habits of the reader or ``Corporate Design'' \index{corporate 
-desing} rules that distinguish publications from different publishers.  
-\footnote{Compare the layout of different daily papers or magazines 
-like ``page'' or ``invers''.}
+Leve a ferramenta até a face do tarugo e econste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
 
-\attention
-The main purpose of a layout is to make sure the reader finds the 
-information he wants and is able to read and understand it easily.
-The structure, readability, and consistency of a document is more 
-important than it's ``beauty''.\footnote{This is not always true for 
-adverts that usually contain no information at all and, picture 
-magazines where the beauty of the picture \emph{is} the contents.}
+Confira se o eixo Z aparece selecionado antes de prosseguir, se não estiver seleione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo Z usando o L2 do Joystick (recomendado) ou ainda usando o atalho de teclado Z (z maiúsculo).
 
-The following ``rules of thumb''\index{rules of thumb} will be valid 
-for most applications:
+Clique em apalpador, mantenha o offset em 0, selecione o plano de corte desejado (por favor use o G54 como o padrão para essa operação), clique em "OK". Isso deve mover a imagem da peça na tela, para a nova posição Z que você indicou através desse procedimento.
 
-\begin{description}
+\attention Use o bom senso ao fazer esse procedimento, controlando a velociade de aprocimação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velociade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
 
-\item[Line spacing]\index{line spacing}
-        The spacing between two lines should be larger than the spacing 
-        between two words to guide the eyes of the reader.
+\attention Recomendamos velocidades de aproximação baixas (20 a 50 mm/s) quando prestes a encostar no tarugo de material.
 
-\item[Line length]\index{line length}
-        The length of a line -- or when using multicolumn layout of a 
-        column -- should be about 60 characters. When lines get longer they 
-        are more difficult to read and it is easier to go to the wrong line 
-        after finishing the current one. Increasing the linespacing may help a 
-        little.
-        When lines get to short it is difficult to set them justified, and you 
-        will get lots of hyphenated words.
-        
-\item[Page layout]\index{page layout}
-        Normal text pages should look the same throughout the document. 
-        Figures, tables and special pages like the index need not appear in 
-        the same layout but should take as much space as needed.
-        
-\item[Margin notes]\index{margin notes}
-        Margin notes are often more suitable than footnotes because they 
-        appear right next to the text they refer to. Special margin notes are 
-        the ``attention sign'' or the ``dangerous bend'' that guide the user 
-        to important parts of the text.
-        
-\item[Headings and Footings]\index{headings}\index{footings}
-        Headings and footings should make it easier for the reader to orient
-        himself in the document. If you expect readers to copy single pages
-        from the document they should contain information about the paper as
-        a whole, just in case you need more information or want to cite the
-        whole paper.
-        
-        If you expect the document to change often (like software manuals),
-        each page should contain a version information or at least a date.
-        
-\end{description}
+\subsection{Eixo X}
 
-\subsection{Special note for technical descriptions}
+Para esse eixo é preciso conhecer o diâmetro do tarugo que vai ser torneado. Idealmente deve-se fazer um passo manual de desbaste para garantir um diâmetro uniforme ao longo de todo comprimento do tarugo.
 
-Let us compare three different layouts and check if they are usable for 
-technical descriptions, user's guides and reference manuals.  
-\footnote{This hint came from Paul Stiff, who teaches layout design at 
-the University of Reading.}
+De pose dessa informação, leve a ferramenta até a leteral do tarugo e encoste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
 
-\begin{description}
+Confira se o eixo X aparece selecionado antes de prosseguir, se não estiver seleione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo X usando o R2 do Joystick (recomendado) ou ainda usando o atalho de teclado X (x maiúsculo).
 
-\item[Plain \TeX]
-        The standard format use by plain \TeX\ has the great disadvantage 
-        that the lines are much to long, which reduces the readability.
-        
-\item[Standard-\LaTeX]
-        The format used by \LaTeX{}s standard classes isn't ideal. The 
-        line length is correct, but that leaves us with a wide unused margin. 
-        The font used for section headings is too large. The Koma-Script 
-        classes improve this and offer many ways to configure the fonts. 
-        This is a good design for a paper one usually reads from start to 
-        end.
-        
-\item[Reference Manual Style]
-        A new design that appeared some years ago and is used in recent 
-        reference manuals, is much more suited for our purpose.
-        \footnote{The ``PostScript Reference Manual'' is one document that 
-        uses such a design.}
-\begin{itemize}
-\item
-        The text is printed in rather short lines in the right part of the 
-        page. This part is used for continuous reading.
-\item
-        The wide left margin is used for headings and margin notes. Since 
-        you now have a wide margin it is easier to use long margin notes to 
-        supply additional information and to lead the reader to important 
-        parts of the documents. Please note that the margin is always on the 
-        left side thus two-sided printing does not look symmetrical. This is 
-        done on purpose, because the reader will always start reading at the 
-        left side, and with this layout section headers really ``stand out''. 
-        In a symmetrical layout, half the headers would be buried in the text.
-\item
-        Figures and tables are either inside the text column, inside the
-        margin or, if necessary, fill the whole page.
-\end{itemize}
+Clique em apalpador, o offset que você deve informar é o diâmetro (assumindo que G7 foi ativado, se não, o raio) do tarugo que você está prestes a tornear, selecione o plano de corte desejado (por favor use o G54 como o padrão para essa operação), clique em "OK". Isso deve mover a imagem da peça na tela, para a nova posição X que você indicou através desse procedimento.
 
-\seealso{Section \ref{refmanex}}
-Section~\ref{refmanex} describes how to implement such a layout in 
-\LaTeX.
+\attention Use o bom senso ao fazer esse procedimento, controlando a velociade de aprocimação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velociade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
 
-\end{description}
+\attention Recomendamos velocidades de aproximação baixas (20 a 50 mm/s) quando prestes a encostar no tarugo de material.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Testando o zero peça}
 
+Se por alguma razão você estiver em dúvida sobre se o zero peça está defido no lugar certo (centro da face frontal do tarugo), você tem duas opções, refazer a calibração (recomendado), ou usar um comando no MDI para mandar a ferramenta para a coordenada (0, 0) definida em relação a G54 (tome muito cuidado).
 
-\section{How to change a \LaTeX\ layout?}
-\label{layout}
+Partindo de uma posição segura (ou seja, onde o movimento da ferramenta não tem chance de colidir com o tarugo), um comando como G54 G01 X0. Z0. F100. pode ser executado e se você definiu o zero peça corretamente, não devem haver problemas
 
-\subsection{Advantages and Disadvantages of the text processing system \LaTeX}
+\attention Se um procedimento como esse for executado, tenha certeza que você entende o que o comando que você digitar no MDI faz. Além disso, evite velocidades mais altas que a apresentada no exemplo.
 
-\marginlabel{Advantages:} The big advantage of \LaTeX\ is, that it 
-implements a ``generic'' or ``logical'' design.\index{design, 
-logical}\index{design, generic} This means that the author has to 
-specify the \emph{meaning} of special parts of the text like: 
-headings, citations, lists, literature references, and so on. These 
-logical definitions will be processed by the system and printed in 
-the ``correct'' way. The meaning of \emph{correct} is defined in the 
-document class and additional packages.
-
-The opposite of this is the ``visual'' design\index{design, visual} 
-that most text processors use. Here the author has to know the correct 
-way to set certain parts of the text and take care of the correct 
-printing.
-
-The logical design makes it easier for the author to write 
-consistent documents (\ie\ same font and fontsize for section headings 
-of the same level, same layout for lists and enumerations, \dots).
-
-\marginlabel{Disadvantages:}
-The main disadvantage of \LaTeX\ is that the author has only limited 
-means to change the layout and that she has only four classes to 
-choose from. This has changed a great deal with the appearance of the 
-Script classes for \LaTeX\ 2.09 in 1992, which in turn have been replaced by 
-the even more improved Koma-Script classes for \LaTeXe.
-
-Another disadvantage is that \LaTeX\ seems to be tied to the 
-``Computer modern'' font family. This is simply not true, at least 
-not when you have a PostScript printer. Setting up different fonts 
-isn't an easy task, but once they are installed they are as easy 
-to use as the standard fonts.
-
-But \LaTeX\ is much more powerful and flexible: you can define an 
-arbitrary design by changing the definitions in the class files or 
-overwrite them by packages. This is easier than you may think and 
-happens more often than you think. Many universities and publishers 
-have their own \LaTeX\ class but do not distribute it to the 
-world.\footnote{You can find a generic \texttt{elsevier.cls} on CTAN 
-which you can use to prepare article before submission. This will be 
-replaced by the magazine-specific class at the publisher.}
-
+\attention Fique atento, se a ferramenta colidir com o tarugo e não parar, esteja pronto para apertar o botão vermelho de emergência localizado na caixa de controle. É melhor ainda se houver outra pessoa pronta para apertar o botão enquanto você manuseia a máquina. 
 
 \subsection{Input files and class files}
 
