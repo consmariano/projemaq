@@ -15,9 +15,9 @@
 Vinicios de Andrade Cardozo \\
 Gabriel Silva de Carvalho  \\
 Douglas \\
-Versão 1}
+Versão 1.5}
 
-\date{}
+\date{10 de novembro, 2024}
 \emergencystretch1em  %
 
 \pagestyle{myfootings}
@@ -58,14 +58,22 @@ Com os passos anteriores feitos, o computador pode ser ligado. Para acessá-lo b
 A última coisa a se fazer antes de se abrir o aplicativo do LinuxCNC é abrir um terminal e executar o comando: \textbf{qjoypad} para inicializar a aplicação que irá receber os inputs do Joystick e convertê-los para comandos de teclado que o LinuxCNC compreende. 
 
 \subsection{Preparação para carregar um código G}
-Abra o aplicativo do LinuxCNC, selecionando a configuração correta para o torno que será utilizado. Abaixo, alguns métodos para se selecionar a configuração correta:
+Abra o aplicativo do LinuxCNC, selecionando a configuração correta para o torno que será utilizado. Abaixo, dois métodos para se selecionar a configuração correta:
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/Abertura_do_linux_CNC.png}
     \end{center}
-    \caption{}\label{abrircncpiorjeito}
+    \caption{Seleção da configuração certa}\label{abrircncpiorjeito}
 \end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/atalho.png}
+    \end{center}
+    \caption{Abertura da configuração certa através de um atalho}\label{abrirmelhorjeito}
+\end{figure}
+
 
 Já com o aplicativo do LinuxCNC aberto, procure pelo botão vermelho de ligar no canto superior esquerdo da interface gráfica ou simplesmente utilize o botão "start" do Joystick, isso irá efetivamente ligar a máquina. 
 Com o controle manual (Joystick ou teclado) leve o torno para uma posição segura e então faça o \textbf{homing} dos eixos X e Z.
@@ -74,7 +82,7 @@ Com o controle manual (Joystick ou teclado) leve o torno para uma posição segu
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/referenciamento_linux_CNC.png}
     \end{center}
-    \caption{}\label{homing}
+    \caption{Realização do homing}\label{homing}
 \end{figure}
 
 
@@ -86,14 +94,14 @@ Para códigos G que descrevem diâmetros ao invés de raios (ou seja, códigos G
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/Selecao_do_programa2.png}
     \end{center}
-    \caption{}\label{progselec}
+    \caption{Programa sendo selecionado}\label{progselec}
 \end{figure}
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/Selecao_do_programa.png}
     \end{center}
-    \caption{}\label{progselec2}
+    \caption{Programa sendo selecionado}\label{progselec2}
 \end{figure}
 
 \section{Controles}
@@ -103,28 +111,32 @@ O controle manual da máquina é feito através de comandos de teclado que podem
 Nessa seção são listados todos os comandos programados para funcionar no Joystick, de modo a melhorar a experiência de qualquer usuário seguindo os passos das próximas seções desse manual. 
 
 \begin{itemize}
-    \item Direita 
-    \item Esquerda
-    \item Cima
-    \item Baixo
-    \item Aumentar velocidade 
-    \item Diminuir velocidade
-    \item Selecionar eixo X
-    \item Selecionar eixo Z
-    \item Homing do eixo selecionado
+    \item Direita (d-pad direito, analógico) 
+    \item Esquerda (d-pad esquerdo, analógico)
+    \item Cima (d-pad acima, analógico)
+    \item Baixo (d-pad abaixo, analógico)
+    \item Aumentar velocidade (R1) 
+    \item Diminuir velocidade (L1)
+    \item Selecionar eixo X (L2)
+    \item Selecionar eixo Z (R2)
+    \item Homing do eixo selecionado (L3, R3, botão 3)
 \end{itemize}
+
+\attention O botão 3 é mais consistente que as outras opções de homing.
+
+\attention Apesar de programado no Joystick, fazer o homing de um eixo (que já havia sido referenciado anteriormente) usando o mouse na interface gráfica é equivalente ou até mesmo mais rápido, pois o diálogo de confirmação que é aberto precisa de um clique do mouse. 
 
 \section{Definição do zero peça}
 
 O zero peça é a referência relativa ao zero máquina que passamos ao LinuxCNC para que o mesmo saiba em que coordenadas o material bruto que deve ser torneado está localizado. Podem ser definidos, através de diferentes códigos G, diversos planos de corte, sendo o P0 o plano padrão, em coordenadas absolutas definidas na etapa de homing da máquina.
-
+ 
 Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. Abaixo temos uma imagem da função de apalpador sendo utilizada.
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/Definicao_do_zero_peca_g54.png}
     \end{center}
-    \caption{}\label{G54}
+    \caption{Apalpador sendo utilizado}\label{G54}
 \end{figure}
 
 
@@ -164,7 +176,7 @@ A interface gráfica do LinuxCNC tem duas seções, Preview e DRO. Preview vem s
     \begin{center}
         \includegraphics[width=0.95\textwidth]{imagens/configuracao_de_posicao.png}
     \end{center}
-    \caption{}\label{fig:}
+    \caption{Interface do DRO}\label{pos}
 \end{figure}
 
 \subsection{Testando o zero peça}
@@ -197,5 +209,69 @@ Com todas essas precauções tomadas, basta clicar no botão de executar, na int
 
 \attention Caso o programa pause no meio devido a uma seção no código que exige uma troca de ferramenta manual, troque a ferramenta, refaça os paços para a obtenção do zero peça, e então continue a execução do programa.  
 
+\section{Diagnóstico de problemas}
+
+Aqui apresentaremos alguns problemas comuns encontrados no manuseio da máquina, além de estratégias de diagnóstico para problemas que eventualmente não estejam listados.
+
+\subsection{Problemas de login}
+
+Confira o login e senha anotados por cima do computador, tenha certeza que desativou o caps lock e tente novamente. Se isso não funcionar, tenha certeza de que você fez boot no sistema correto. Para verificar isso, basta reiniciar o computador e esperar que ele selecione o primeiro sistema da lista automaticamente. 
+
+Se nenhuma estratégia funcionar, pode ser preciso realizar a formatação do computador. Consulte o restante do grupo antes de tomar alguma medida nesse sentido.
+
+\subsection{Joystick não consegue mover a máquina}
+
+Verifique que o Joystick está conectado ao computador por meio de uma entrada USB. Caso não esteja, conecte-o e verifique se o Linux foi capaz de detectar o novo dispositivo. Caso não haja detecção, reinicie o computador. 
+
+Verifique que o qjoypad está rodando, olhando se o ícone do aplicativo está presente na barra de tarefas. Caso não esteja, abra um terminal e execute o comando "qjoypad" (note que para continuar ativo o qjoypad precisa que o terminal usado não seja fechado).
+
+Verifique que o modo de controle manual está selecionado na interface gráfica do LinuxCNC, caso contrário os comandos enviados peloJoystick não serão interpretados corretamente.
+
+\attention Não tente usar o controle manual durante uma execução de código G, o LinuxCNC irá ignorar seus comandos manuais e levantar mensagens de erro.
+
+\subsection{Código G não abre}
+
+Tenha certeza que o código que você está tentando abrir tem a extensão usual do LinuxCNC (.ngc). Além disso, verifique a mensagem de erro, podem haver erros na geração do seu código que necessitam de atenção.
+
+Um erro comum é tentar abrir um código G que passa diâmetros em seus parâmetros ao invés de raios, o que pode levar a erro caso você tenha esquecido de ativar o código G7 no MDI. Abaixo, uma imagem de como esse erro pode se apresentar:
+
+\begin{figure}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/erro_g7.png}
+    \end{center}
+    \caption{Erro devido a não ativação do G7}\label{errog7}
+\end{figure}
+
+Se anteriormente seu código funcionava e sem aparente motivo ele não abre mais, você pode estar tentando abrir o arquivo errado por engano, verifique o diretório e o nome do arquivo que você quer abrir.
+
+\subsection{A máquina parou}
+
+Verifique se houveram colisões com as chaves de fim de curso, se for o caso marque a opção "ignorar limites" e leve a máquina para uma posição segura \textbf{com cuidado}. Caso você verifique que a mensagem de erro de colisão esteja presente mas não mas sem uma colisão real, é provável que o motor AC induziu corrente nos fios ligados as chaves de fim de curso, se esse for o caso, refaça a blindagem dos fios. 
+
+Pode ser o caso de uma mera pausa no código para uma troca de ferramenta, se esse for o caso, troque a ferramenta, refaça o referenciamento do zero peça e retome a execução do código.
+
+Se você estiver executando um código atrelado ao sinal do encoder, como por exemplo o código para um rosqueamento, tenha certeza que o motor AC esteja ligado e girando o eixo árvore.
+
+\attention Se o motivo de parada não for aparente, desligue a máquina por precaução.
+
+\subsection{Erros não citados}
+
+Caso você se depare com um erro novo, a melhor estratégia é voltar a um estado inicial seguro. No contexto da operação desse torno, pare a operação imediatamente e reinicie tudo, refazendo todos os passos de preparação necessários.
+
+Se após a reinicialização ainda persistirem erros, verifique as configurações da máquina no Stepconf Wizard (em especial a configuração dos pinos da porta paralela) e os sinais do encoder (encoder.0.phase-A e encoder.0.phase-B) no Halscope
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/halscope.png}
+    \end{center}
+    \caption{Halscope em uso}\label{halscope}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/stepconf_config.png}
+    \end{center}
+    \caption{Configuração atual dos pinos}\label{stepconfig}
+\end{figure}
 
 \end{document}

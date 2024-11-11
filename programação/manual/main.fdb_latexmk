@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex main.idx"] 1731281401 "main.idx" "main.ind" "main" 1731297972 0
-  "main.idx" 1731297970 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1731281401 "main.idx" "main.ind" "main" 1731347071 0
+  "main.idx" 1731347068 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1731297970 "main.tex" "main.pdf" "main" 1731297972 0
+["pdflatex"] 1731347066 "main.tex" "main.pdf" "main" 1731347071 0
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1699847640 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1699848329 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1699848034 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -67,12 +67,16 @@
   "imagens/Definicao_do_zero_peca_g54.png" 1731241062 126037 b0c6406bb255e4ff57c105859550a84c ""
   "imagens/Selecao_do_programa.png" 1731241062 121924 778e166b711516d81568ec55f8bf017d ""
   "imagens/Selecao_do_programa2.png" 1731241062 98231 d6336f49a4cc41508b8c2c396137fa09 ""
+  "imagens/atalho.png" 1731371702 368365 0013db0b06e51ae4029536546fc40671 ""
   "imagens/configuracao_de_posicao.png" 1731241062 135482 3ab95ed285f1b9a248fdb32fb1f8cbb1 ""
+  "imagens/erro_g7.png" 1731377162 17392 9cf7481d5122598446297d978a0eb8b3 ""
+  "imagens/halscope.png" 1731372746 85347 020dcefee17a5ea424e4b4753520476a ""
   "imagens/referenciamento_linux_CNC.png" 1731241062 127963 7b3895ded9b99d62b312707caa4a6841 ""
-  "main.aux" 1731297971 2051 831a09deab7ba1f47d524abf977f49a7 "pdflatex"
+  "imagens/stepconf_config.png" 1731379132 70768 ae7178db1e3e150ff6ee3c174aa693cd ""
+  "main.aux" 1731347070 3587 504b1f7111700c1d854798ab5d795e23 "pdflatex"
   "main.ind" 1731281402 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.tex" 1731297968 12834 d7e849f7571b2ce943942a0161f15da6 ""
-  "main.toc" 1731297971 716 e06df85506187ddc46cfd5e8aa5d380c "pdflatex"
+  "main.tex" 1731347058 18179 71c8e9fcf7a795e19d6ae90d4afe4904 ""
+  "main.toc" 1731347070 1160 425b738fd364237833962b469a6aec14 "pdflatex"
   (generated)
   "main.aux"
   "main.idx"
