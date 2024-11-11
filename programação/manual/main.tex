@@ -15,14 +15,14 @@
 Vinicios de Andrade Cardozo \\
 Gabriel Silva de Carvalho  \\
 Douglas \\
-Version 1}
+Versão 1}
 
 \date{}
 \emergencystretch1em  %
 
 \pagestyle{myfootings}
-\markboth{Changing the layout with \textrm{\LaTeX}}%
-         {Changing the layout with \textrm{\LaTeX}}
+\markboth{Manual de operação do torno}%
+         {Manual de operação do torno}
 
 \makeindex 
 
@@ -49,13 +49,13 @@ Aqui trataremos dos passos iniciais para começar a operar a máquina, ou seja, 
 
 \subsection{Inicialização e login}
 
-Antes de ligar o computador é recomendável verificar que o Joystick esteja acoplado em uma entrada USB, uma vez que o LinuxCNC pode apresentar problemas de varredura de periféricos, ou seja, ele pode não detectar disposivos conectados após sua inicialização (apesar de que esse problema nunca se apresentou para o caso de pendrives).
+Antes de ligar o computador é recomendável verificar que o Joystick esteja acoplado em uma entrada USB, uma vez que o LinuxCNC pode apresentar problemas de varredura de periféricos, ou seja, ele pode não detectar dispositivos conectados após sua inicialização (apesar de que esse problema nunca se apresentou para o caso de pendrives).
 
 O próximo passo é conectar a caixa de controle a \textbf{uma tomada de 220V} (na sala de laboratório essas tomadas tem cor vermelha), e então ligar a caixa. Note que a caixa deve ser ligada antes de se ligar o computador pelo mesmo problema de varredura anteriormente citado.
 
-Com os passos anteriores feitos, o computador pode ser ligado. Para acessa-lo basta que se entre com o login: \textbf{alunopmr} e a senha: \textbf{pmrcnc}. 
+Com os passos anteriores feitos, o computador pode ser ligado. Para acessá-lo basta que se entre com o login: \textbf{alunopmr} e a senha: \textbf{pmrcnc}. 
 
-A última coisa a se fazer antes de se abrir o aplicativo do LinuxCNC é abrir um terminal e executar o comando: \textbf{qjoypad} para inicializar a aplicação que irá receber os inputs do Joystick e convertelos para comandos de teclado que o LinuxCNC comprende. 
+A última coisa a se fazer antes de se abrir o aplicativo do LinuxCNC é abrir um terminal e executar o comando: \textbf{qjoypad} para inicializar a aplicação que irá receber os inputs do Joystick e convertê-los para comandos de teclado que o LinuxCNC compreende. 
 
 \subsection{Preparação para carregar um código G}
 Abra o aplicativo do LinuxCNC, selecionando a configuração correta para o torno que será utilizado. Abaixo, alguns métodos para se selecionar a configuração correta:
@@ -80,7 +80,7 @@ Com o controle manual (Joystick ou teclado) leve o torno para uma posição segu
 
 Para códigos G que descrevem diâmetros ao invés de raios (ou seja, códigos G usuais) é preciso que se ative o modo de diâmetro usando o comando G7 no MDI.
 
-Abra o código G da peça que você deseja produzir. Se houver algum erro na abertura modificações no código podem ser necessárias.
+    Abra o código G da peça que você deseja produzir. Se houver algum erro na abertura modificações no código podem ser necessárias.
 
 \begin{figure}[H]
     \begin{center}
@@ -96,11 +96,29 @@ Abra o código G da peça que você deseja produzir. Se houver algum erro na abe
     \caption{}\label{progselec2}
 \end{figure}
 
+\section{Controles}
+
+O controle manual da máquina é feito através de comandos de teclado que podem ser consultados através da referência rápida do menu "help" do aplicativo do LinuxCNC. Através do uso do qjoypad esse controle pode ser feito através de um Joystick, sendo essa a forma que vai ser avaliada no dia da apresentação final e portanto a forma recomendada. 
+
+Nessa seção são listados todos os comandos programados para funcionar no Joystick, de modo a melhorar a experiência de qualquer usuário seguindo os passos das próximas seções desse manual. 
+
+\begin{itemize}
+    \item Direita 
+    \item Esquerda
+    \item Cima
+    \item Baixo
+    \item Aumentar velocidade 
+    \item Diminuir velocidade
+    \item Selecionar eixo X
+    \item Selecionar eixo Z
+    \item Homing do eixo selecionado
+\end{itemize}
+
 \section{Definição do zero peça}
 
 O zero peça é a referência relativa ao zero máquina que passamos ao LinuxCNC para que o mesmo saiba em que coordenadas o material bruto que deve ser torneado está localizado. Podem ser definidos, através de diferentes códigos G, diversos planos de corte, sendo o P0 o plano padrão, em coordenadas absolutas definidas na etapa de homing da máquina.
 
-Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. Abaixo temos umaimagem da função de apalpador sendo utilizada.
+Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. Abaixo temos uma imagem da função de apalpador sendo utilizada.
 
 \begin{figure}[H]
     \begin{center}
@@ -114,13 +132,13 @@ A seguir, uma breve descrição do como usar a função do apalpador para defini
 
 \subsection{Eixo Z}
 
-Leve a ferramenta até a face do tarugo e econste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
+Leve a ferramenta até a face do tarugo e encoste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
 
-Confira se o eixo Z aparece selecionado antes de prosseguir, se não estiver seleione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo Z usando o L2 do Joystick (recomendado) ou ainda usando o atalho de teclado Z (z maiúsculo).
+Confira se o eixo Z aparece selecionado antes de prosseguir, se não estiver selecione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo Z usando o L2 do Joystick (recomendado) ou ainda usando o atalho de teclado Z (z maiúsculo).
 
 Clique em apalpador, mantenha o offset em 0, selecione o plano de corte desejado (por favor use o G54 como o padrão para essa operação), clique em "OK". Isso deve mover a imagem da peça na tela, para a nova posição Z que você indicou através desse procedimento.
 
-\attention Use o bom senso ao fazer esse procedimento, controlando a velociade de aprocimação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velociade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
+\attention Use o bom senso ao fazer esse procedimento, controlando a velocidade de aproximação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velocidade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
 
 \attention Recomendamos velocidades de aproximação baixas (20 a 50 mm/s) quando prestes a encostar no tarugo de material.
 
@@ -128,13 +146,13 @@ Clique em apalpador, mantenha o offset em 0, selecione o plano de corte desejado
 
 Para esse eixo é preciso conhecer o diâmetro do tarugo que vai ser torneado. Idealmente deve-se fazer um passo manual de desbaste para garantir um diâmetro uniforme ao longo de todo comprimento do tarugo.
 
-De pose dessa informação, leve a ferramenta até a leteral do tarugo e encoste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
+De pose dessa informação, leve a ferramenta até a lateral do tarugo e encoste nela com \textbf{cuidado}, utilizando de preferência o d-pad do Joystick (o teclado também funciona, mas utilizar o Joystick é parte da avaliação). 
 
-Confira se o eixo X aparece selecionado antes de prosseguir, se não estiver seleione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo X usando o R2 do Joystick (recomendado) ou ainda usando o atalho de teclado X (x maiúsculo).
+Confira se o eixo X aparece selecionado antes de prosseguir, se não estiver selecione-o de um dos seguintes modos: clicando na opção com o mouse, mudando para o eixo X usando o R2 do Joystick (recomendado) ou ainda usando o atalho de teclado X (x maiúsculo).
 
 Clique em apalpador, o offset que você deve informar é o diâmetro (assumindo que G7 foi ativado, se não, o raio) do tarugo que você está prestes a tornear, selecione o plano de corte desejado (por favor use o G54 como o padrão para essa operação), clique em "OK". Isso deve mover a imagem da peça na tela, para a nova posição X que você indicou através desse procedimento.
 
-\attention Use o bom senso ao fazer esse procedimento, controlando a velociade de aprocimação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velociade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
+\attention Use o bom senso ao fazer esse procedimento, controlando a velocidade de aproximação usando os triggers superiores do controle para aumentar ou diminuir a velocidade (L1 diminui a velocidade e R1 aumenta). Consulte o slider na interface gráfica com o nome de "Jog speed" para ver a velocidade com a qual você está avançando (o slider pode ser usado para controlar essa velocidade também, mas novamente é recomendável o uso do Joystick). 
 
 \attention Recomendamos velocidades de aproximação baixas (20 a 50 mm/s) quando prestes a encostar no tarugo de material.
 
@@ -151,7 +169,7 @@ A interface gráfica do LinuxCNC tem duas seções, Preview e DRO. Preview vem s
 
 \subsection{Testando o zero peça}
 
-Se por alguma razão você estiver em dúvida sobre se o zero peça está defido no lugar certo (centro da face frontal do tarugo), você tem duas opções, refazer a calibração (recomendado), ou usar um comando no MDI para mandar a ferramenta para a coordenada (0, 0) definida em relação a G54 (tome muito cuidado).
+Se por alguma razão você estiver em dúvida sobre se o zero peça está definido no lugar certo (centro da face frontal do tarugo), você tem duas opções, refazer a calibração (recomendado), ou usar um comando no MDI para mandar a ferramenta para a coordenada (0, 0) definida em relação a G54 (tome muito cuidado).
 
 Partindo de uma posição segura (ou seja, onde o movimento da ferramenta não tem chance de colidir com o tarugo), um comando como G54 G01 X0. Z0. F100. pode ser executado e se você definiu o zero peça corretamente, não devem haver problemas
 

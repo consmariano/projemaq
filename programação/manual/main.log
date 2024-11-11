@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  10 NOV 2024 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  11 NOV 2024 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -158,12 +158,12 @@ File: imagens/Abertura_do_linux_CNC.png Graphic file (type png)
 Package pdftex.def Info: imagens/Abertura_do_linux_CNC.png  used on input line 65.
 (pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
  [2 <./imagens/Abertura_do_linux_CNC.png>]
-<imagens/referenciamento_linux_CNC.png, id=17, 1284.8pt x 1027.84pt>
+<imagens/referenciamento_linux_CNC.png, id=16, 1284.8pt x 1027.84pt>
 File: imagens/referenciamento_linux_CNC.png Graphic file (type png)
 <use imagens/referenciamento_linux_CNC.png>
 Package pdftex.def Info: imagens/referenciamento_linux_CNC.png  used on input line 75.
 (pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
-<imagens/Selecao_do_programa2.png, id=18, 1284.8pt x 1027.84pt>
+<imagens/Selecao_do_programa2.png, id=17, 1284.8pt x 1027.84pt>
 File: imagens/Selecao_do_programa2.png Graphic file (type png)
 <use imagens/Selecao_do_programa2.png>
 Package pdftex.def Info: imagens/Selecao_do_programa2.png  used on input line 87.
@@ -172,51 +172,49 @@ Package pdftex.def Info: imagens/Selecao_do_programa2.png  used on input line 87
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./imagens/referenciamento_linux_CNC.png>]
-<imagens/Selecao_do_programa.png, id=22, 1284.8pt x 1027.84pt>
+<imagens/Selecao_do_programa.png, id=21, 1284.8pt x 1027.84pt>
 File: imagens/Selecao_do_programa.png Graphic file (type png)
 <use imagens/Selecao_do_programa.png>
 Package pdftex.def Info: imagens/Selecao_do_programa.png  used on input line 94.
 (pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
  [4 <./imagens/Selecao_do_programa2.png> <./imagens/Selecao_do_programa.png>]
-<imagens/Definicao_do_zero_peca_g54.png, id=26, 1284.8pt x 1027.84pt>
+<imagens/Definicao_do_zero_peca_g54.png, id=25, 1284.8pt x 1027.84pt>
 File: imagens/Definicao_do_zero_peca_g54.png Graphic file (type png)
 <use imagens/Definicao_do_zero_peca_g54.png>
-Package pdftex.def Info: imagens/Definicao_do_zero_peca_g54.png  used on input line 107.
+Package pdftex.def Info: imagens/Definicao_do_zero_peca_g54.png  used on input line 125.
 (pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+ [5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./imagens/Definicao_do_zero_peca_g54.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 123.
+(Font)              <12> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 123.
+(Font)              <8> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 123.
- [5 <./imagens/Definicao_do_zero_peca_g54.png>]
-<imagens/configuracao_de_posicao.png, id=31, 1284.8pt x 1027.84pt>
+(Font)              <6> on input line 141.
+ [6]
+<imagens/configuracao_de_posicao.png, id=34, 1284.8pt x 1027.84pt>
 File: imagens/configuracao_de_posicao.png Graphic file (type png)
 <use imagens/configuracao_de_posicao.png>
-Package pdftex.def Info: imagens/configuracao_de_posicao.png  used on input line 147.
+Package pdftex.def Info: imagens/configuracao_de_posicao.png  used on input line 165.
 (pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6] [7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./imagens/configuracao_de_posicao.png>] [8] (./main.aux)
+ [7 <./imagens/configuracao_de_posicao.png>] [8] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3223 strings out of 474272
- 56503 string characters out of 5751547
- 1932533 words of memory out of 5000000
- 25397 multiletter control sequences out of 15000+600000
- 563672 words of font info for 54 fonts, out of 8000000 for 9000
+ 3219 strings out of 474272
+ 56469 string characters out of 5751547
+ 1935533 words of memory out of 5000000
+ 25394 multiletter control sequences out of 15000+600000
+ 563320 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,9n,69p,717b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (8 pages, 792183 bytes).
+ 61i,7n,69p,717b,268s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (8 pages, 783439 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

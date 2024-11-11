@@ -2,9 +2,10 @@
 \contentsline {section}{\numberline {1}Procedimentos inicias}{2}{}%
 \contentsline {subsection}{\numberline {1.1}Inicialização e login}{2}{}%
 \contentsline {subsection}{\numberline {1.2}Preparação para carregar um código G}{2}{}%
-\contentsline {section}{\numberline {2}Definição do zero peça}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Eixo Z}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Eixo X}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Preview e DRO}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Testando o zero peça}{7}{}%
-\contentsline {section}{\numberline {3}Executando código G}{7}{}%
+\contentsline {section}{\numberline {2}Controles}{4}{}%
+\contentsline {section}{\numberline {3}Definição do zero peça}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Eixo Z}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Eixo X}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Preview e DRO}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Testando o zero peça}{7}{}%
+\contentsline {section}{\numberline {4}Executando código G}{8}{}%
