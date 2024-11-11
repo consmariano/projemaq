@@ -1,6 +1,9 @@
 \documentclass[twoside,a4paper]{refart}
 \usepackage{makeidx}
 \usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[portuguese]{babel}
 
 \def\bs{\char'134 } % backslash in \tt font.
 \newcommand{\ie}{i.\,e.,}
@@ -55,20 +58,59 @@ Com os passos anteriores feitos, o computador pode ser ligado. Para acessa-lo ba
 A última coisa a se fazer antes de se abrir o aplicativo do LinuxCNC é abrir um terminal e executar o comando: \textbf{qjoypad} para inicializar a aplicação que irá receber os inputs do Joystick e convertelos para comandos de teclado que o LinuxCNC comprende. 
 
 \subsection{Preparação para carregar um código G}
+Abra o aplicativo do LinuxCNC, selecionando a configuração correta para o torno que será utilizado. Abaixo, alguns métodos para se selecionar a configuração correta:
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/Abertura_do_linux_CNC.png}
+    \end{center}
+    \caption{}\label{abrircncpiorjeito}
+\end{figure}
 
 Já com o aplicativo do LinuxCNC aberto, procure pelo botão vermelho de ligar no canto superior esquerdo da interface gráfica ou simplesmente utilize o botão "start" do Joystick, isso irá efetivamente ligar a máquina. 
-
 Com o controle manual (Joystick ou teclado) leve o torno para uma posição segura e então faça o \textbf{homing} dos eixos X e Z.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/referenciamento_linux_CNC.png}
+    \end{center}
+    \caption{}\label{homing}
+\end{figure}
+
 
 Para códigos G que descrevem diâmetros ao invés de raios (ou seja, códigos G usuais) é preciso que se ative o modo de diâmetro usando o comando G7 no MDI.
 
 Abra o código G da peça que você deseja produzir. Se houver algum erro na abertura modificações no código podem ser necessárias.
 
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/Selecao_do_programa2.png}
+    \end{center}
+    \caption{}\label{progselec}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/Selecao_do_programa.png}
+    \end{center}
+    \caption{}\label{progselec2}
+\end{figure}
+
 \section{Definição do zero peça}
 
 O zero peça é a referência relativa ao zero máquina que passamos ao LinuxCNC para que o mesmo saiba em que coordenadas o material bruto que deve ser torneado está localizado. Podem ser definidos, através de diferentes códigos G, diversos planos de corte, sendo o P0 o plano padrão, em coordenadas absolutas definidas na etapa de homing da máquina.
 
-Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. A seguir, uma breve descrição do como usar a função do apalpador para definir o zero peça em cada um dos eixos.
+Para definir o zero peça devemos definir um novo plano de corte utilizando a função de \textbf{apalpador} localizada ao lado do botão de homing. Apesar de não ser obrigatório, dê preferência a definir o zero peça usando o plano definido por G54. Abaixo temos umaimagem da função de apalpador sendo utilizada.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/Definicao_do_zero_peca_g54.png}
+    \end{center}
+    \caption{}\label{G54}
+\end{figure}
+
+
+A seguir, uma breve descrição do como usar a função do apalpador para definir o zero peça em cada um dos eixos.
 
 \subsection{Eixo Z}
 
@@ -96,6 +138,17 @@ Clique em apalpador, o offset que você deve informar é o diâmetro (assumindo 
 
 \attention Recomendamos velocidades de aproximação baixas (20 a 50 mm/s) quando prestes a encostar no tarugo de material.
 
+\subsection{Preview e DRO}
+
+A interface gráfica do LinuxCNC tem duas seções, Preview e DRO. Preview vem selecionada por padrão e nos mostra o caminho a ferramenta irá percorrer, DRO trás varias informações, das quais as mais importantes são a velocidade e a posição do plano de corte G54 em relação as coordenadas X e Z absolutas.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{imagens/configuracao_de_posicao.png}
+    \end{center}
+    \caption{}\label{fig:}
+\end{figure}
+
 \subsection{Testando o zero peça}
 
 Se por alguma razão você estiver em dúvida sobre se o zero peça está defido no lugar certo (centro da face frontal do tarugo), você tem duas opções, refazer a calibração (recomendado), ou usar um comando no MDI para mandar a ferramenta para a coordenada (0, 0) definida em relação a G54 (tome muito cuidado).
@@ -118,7 +171,7 @@ Para executar um código G (contido em arquivos .ngc), você deve ter certeza de
     \item Ajuste das velocidades de rotação do eixo árvore e dos motores de passo
 \end{itemize}
 
-É importante salientar que o passo de ajuste de velocidades dos motores de passo é fundamental para evitar avanços muito rápidos que podem lançar o tarugo ou as ferramentas para fora da máquina, o que pode gerar acidentes. Se não foi possível prender o tarugo de forma que sua face posterior toque a placa de castanhas, é quase certo que as velocidades terão de ser reduzidas. Para reduzir as velocidades programadas no código, podemos reduzir tanto a velocidade máxima da máquina, quanto definir um fator de redução (por exemplo se o slider for ajustado para 50%, o programa roda na metade da velocidade programada no código) através da interface gráfica do LinuxCNC.
+É importante salientar que o passo de ajuste de velocidades dos motores de passo é fundamental para evitar avanços muito rápidos que podem lançar o tarugo ou as ferramentas para fora da máquina, o que pode gerar acidentes. Se não foi possível prender o tarugo de forma que sua face posterior toque a placa de castanhas, é quase certo que as velocidades terão de ser reduzidas. Para reduzir as velocidades programadas no código, podemos reduzir tanto a velocidade máxima da máquina, quanto definir um fator de redução (por exemplo se o slider for ajustado para 50\%, o programa roda na metade da velocidade programada no código) através da interface gráfica do LinuxCNC.
 
 Com todas essas precauções tomadas, basta clicar no botão de executar, na interface gráfica do aplicativo. 
 

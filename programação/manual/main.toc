@@ -1,8 +1,10 @@
+\babel@toc {portuguese}{}\relax 
 \contentsline {section}{\numberline {1}Procedimentos inicias}{2}{}%
 \contentsline {subsection}{\numberline {1.1}Inicialização e login}{2}{}%
 \contentsline {subsection}{\numberline {1.2}Preparação para carregar um código G}{2}{}%
-\contentsline {section}{\numberline {2}Definição do zero peça}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Eixo Z}{3}{}%
-\contentsline {subsection}{\numberline {2.2}Eixo X}{3}{}%
-\contentsline {subsection}{\numberline {2.3}Testando o zero peça}{4}{}%
-\contentsline {section}{\numberline {3}Executando código G}{4}{}%
+\contentsline {section}{\numberline {2}Definição do zero peça}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Eixo Z}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Eixo X}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Preview e DRO}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Testando o zero peça}{7}{}%
+\contentsline {section}{\numberline {3}Executando código G}{7}{}%

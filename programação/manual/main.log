@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  10 NOV 2024 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  10 NOV 2024 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -32,6 +32,45 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count194
+\float@exts=\toks18
+\float@box=\box51
+\@float@everytoks=\toks19
+\@floatcapt=\box52
+) (c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/11/11 v3.97 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen147
+\l@unhyphenated=\language89
+ (c:/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+ (c:/texlive/2023/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+)) (c:/texlive/2023/texmf-dist/tex/generic/babel/locale/pt/babel-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
 )
 \@indexfile=\write3
 \openout3 = `main.idx'.
@@ -40,62 +79,144 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 Writing index file main.idx
 (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box53
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
- (./main.toc
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen148
+\scratchbox=\box54
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen149
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks21
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
  [1
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<imagens/Abertura_do_linux_CNC.png, id=12, 1284.8pt x 1027.84pt>
+File: imagens/Abertura_do_linux_CNC.png Graphic file (type png)
+<use imagens/Abertura_do_linux_CNC.png>
+Package pdftex.def Info: imagens/Abertura_do_linux_CNC.png  used on input line 65.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+ [2 <./imagens/Abertura_do_linux_CNC.png>]
+<imagens/referenciamento_linux_CNC.png, id=17, 1284.8pt x 1027.84pt>
+File: imagens/referenciamento_linux_CNC.png Graphic file (type png)
+<use imagens/referenciamento_linux_CNC.png>
+Package pdftex.def Info: imagens/referenciamento_linux_CNC.png  used on input line 75.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+<imagens/Selecao_do_programa2.png, id=18, 1284.8pt x 1027.84pt>
+File: imagens/Selecao_do_programa2.png Graphic file (type png)
+<use imagens/Selecao_do_programa2.png>
+Package pdftex.def Info: imagens/Selecao_do_programa2.png  used on input line 87.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./imagens/referenciamento_linux_CNC.png>]
+<imagens/Selecao_do_programa.png, id=22, 1284.8pt x 1027.84pt>
+File: imagens/Selecao_do_programa.png Graphic file (type png)
+<use imagens/Selecao_do_programa.png>
+Package pdftex.def Info: imagens/Selecao_do_programa.png  used on input line 94.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+ [4 <./imagens/Selecao_do_programa2.png> <./imagens/Selecao_do_programa.png>]
+<imagens/Definicao_do_zero_peca_g54.png, id=26, 1284.8pt x 1027.84pt>
+File: imagens/Definicao_do_zero_peca_g54.png Graphic file (type png)
+<use imagens/Definicao_do_zero_peca_g54.png>
+Package pdftex.def Info: imagens/Definicao_do_zero_peca_g54.png  used on input line 107.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 81.
+(Font)              <12> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 81.
+(Font)              <8> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 81.
- [3] [4{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./main.aux)
+(Font)              <6> on input line 123.
+ [5 <./imagens/Definicao_do_zero_peca_g54.png>]
+<imagens/configuracao_de_posicao.png, id=31, 1284.8pt x 1027.84pt>
+File: imagens/configuracao_de_posicao.png Graphic file (type png)
+<use imagens/configuracao_de_posicao.png>
+Package pdftex.def Info: imagens/configuracao_de_posicao.png  used on input line 147.
+(pdftex.def)             Requested size: 300.19904pt x 240.14659pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6] [7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./imagens/configuracao_de_posicao.png>] [8] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 623 strings out of 474272
- 10907 string characters out of 5751547
- 1935533 words of memory out of 5000000
- 22881 multiletter control sequences out of 15000+600000
+ 3223 strings out of 474272
+ 56503 string characters out of 5751547
+ 1932533 words of memory out of 5000000
+ 25397 multiletter control sequences out of 15000+600000
  563672 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,50p,716b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,9n,69p,717b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (4 pages, 126560 bytes).
+Output written on main.pdf (8 pages, 792183 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
