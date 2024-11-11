@@ -14,7 +14,7 @@
 \author{Grupo 2 - Projeto de Máquina PMR3411 - 2024 \\
 Vinicios de Andrade Cardozo \\
 Gabriel Silva de Carvalho  \\
-Douglas \\
+Douglas Oliveira de Carvalho \\
 Versão 1.5}
 
 \date{10 de novembro, 2024}
@@ -273,5 +273,76 @@ Se após a reinicialização ainda persistirem erros, verifique as configuraçõ
     \end{center}
     \caption{Configuração atual dos pinos}\label{stepconfig}
 \end{figure}
+
+\section{Considerações de Segurança}
+
+Operar uma máquina CNC envolve riscos que devem ser mitigados seguindo procedimentos de segurança rigorosos.
+
+\subsection{Uso de Equipamentos de Proteção Individual (EPI)}
+
+\begin{itemize} \item Use óculos de proteção para evitar lesões oculares causadas por partículas. \item Utilize protetores auriculares se o nível de ruído for elevado. \item Evite roupas largas, gravatas, jóias ou qualquer acessório que possa se prender na máquina. \item Prenda cabelos compridos e evite o uso de luvas que possam enroscar. \end{itemize}
+
+\subsection{Procedimentos de Segurança}
+
+\begin{itemize} \item Sempre esteja atento à posição da ferramenta e da peça em relação à máquina. \item Nunca deixe a máquina operando sem supervisão. \item Esteja ciente da localização do botão de parada de emergência e pronto para acioná-lo se necessário. \item Certifique-se de que a área ao redor da máquina está livre de obstáculos e pessoas não autorizadas. \end{itemize}
+
+\subsection{Manutenção Preventiva}
+
+\begin{itemize} \item Inspecione regularmente a máquina em busca de sinais de desgaste ou danos. \item Mantenha a máquina limpa e lubrificada conforme as recomendações do fabricante. \item Relate imediatamente qualquer problema ou anomalia ao responsável técnico. \end{itemize}
+
+\section{Manutenção Básica}
+
+A manutenção adequada garante o bom funcionamento da máquina e prolonga sua vida útil.
+
+\subsection{Limpeza}
+
+\begin{itemize} \item Remova os cavacos e resíduos da área de trabalho após cada uso. \item Limpe as guias e componentes móveis com um pano seco ou levemente umedecido. \end{itemize}
+
+\subsection{Lubrificação}
+
+\begin{itemize} \item Aplique lubrificante nas guias e fusos conforme a frequência recomendada. \item Use apenas lubrificantes adequados e indicados pelo fabricante. \end{itemize}
+
+\subsection{Verificações Periódicas}
+
+\begin{itemize} \item Verifique o aperto de parafusos e fixações. \item Teste os sistemas de segurança, como o botão de emergência, regularmente. \item Certifique-se de que os cabos e conexões elétricas estão em bom estado. \end{itemize}
+
+\section*{Glossário}
+
+\begin{description}
+	\item[Apalpador] Ferramenta utilizada para definir a posição do zero peça no torno, especialmente para os eixos X e Z.
+	
+	\item[Caixa de Controle] Unidade de controle elétrico que deve ser conectada à tomada de 220V antes de ligar o computador e o LinuxCNC.
+	
+	\item[Chaves de Fim de Curso] Sensores que limitam o movimento da máquina para evitar colisões e proteger o operador e o equipamento.
+	
+	\item[Encoder] Dispositivo que fornece informações de posição e velocidade do eixo árvore, essencial para operações como rosqueamento.
+	
+	\item[Eixo Árvore] Eixo principal do torno, no qual é fixada a placa de castanhas que segura o tarugo durante a usinagem.
+	
+	\item[G54] Plano de corte padrão no LinuxCNC, geralmente utilizado como referência para definir o zero peça.
+	
+	\item[Homing] Processo de referenciamento dos eixos do torno (X e Z) para estabelecer uma posição inicial de operação da máquina.
+	
+	\item[Jog Speed] Controlador de velocidade para movimentos manuais do torno, ajustável através do slider na interface gráfica do LinuxCNC ou pelo Joystick.
+	
+	\item[Joystick] Dispositivo de controle utilizado para movimentar manualmente os eixos do torno e ajustar a velocidade, substituindo o uso do teclado para melhorar a ergonomia e a segurança.
+	
+	\item[LinuxCNC] Software de controle numérico que permite a automação do torno e a execução de programas de código G para usinagem.
+	
+	\item[MDI (Manual Data Input)] Interface de entrada manual de dados do LinuxCNC, usada para inserir comandos G e M diretamente.
+	
+	\item[Plano de Corte] Referência de coordenadas usada para definir o zero peça. No LinuxCNC, é possível definir múltiplos planos de corte, como o G54.
+	
+	\item[QJoypad] Aplicativo que permite mapear comandos do teclado para o Joystick, possibilitando o controle do torno por meio desse dispositivo.
+	
+	\item[Slider de Velocidade] Controlador na interface do LinuxCNC para ajustar a velocidade máxima de execução do código G, ajudando a evitar avanços rápidos demais.
+	
+	\item[Tarugo] Material bruto preso à placa de castanhas que será usinado conforme o código G carregado no LinuxCNC.
+	
+	\item[Zero Máquina] Posição de referência absoluta dos eixos, definida pelo processo de homing no LinuxCNC.
+	
+	\item[Zero Peça] Ponto de referência na peça a partir do qual as coordenadas do código G são baseadas. Definido após o zero máquina e ajustado pelo apalpador.
+\end{description}
+
 
 \end{document}
