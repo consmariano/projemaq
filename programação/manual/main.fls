@@ -82,9 +82,9 @@ INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT main.toc
 OUTPUT main.pdf
 INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT main.toc
 INPUT ./imagens/Abertura_do_linux_CNC.png
 INPUT ./imagens/Abertura_do_linux_CNC.png
 INPUT ./imagens/Abertura_do_linux_CNC.png

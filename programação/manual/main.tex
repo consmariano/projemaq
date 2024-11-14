@@ -170,7 +170,16 @@ Clique em apalpador, o offset que você deve informar é o diâmetro (assumindo 
 
 \subsection{Preview e DRO}
 
-A interface gráfica do LinuxCNC tem duas seções, Preview e DRO. Preview vem selecionada por padrão e nos mostra o caminho a ferramenta irá percorrer, DRO trás varias informações, das quais as mais importantes são a velocidade e a posição do plano de corte G54 em relação as coordenadas X e Z absolutas.
+A interface gráfica do LinuxCNC tem duas seções, Preview e DRO. Preview vem selecionada por padrão e nos mostra o caminho a ferramenta irá percorrer, codificado por cor:
+
+\begin{itemize}
+    \item[Amarelo:] marca o caminho percorrido pela ferramenta movida usando o controle manual
+    \item[Azul:] caminho programado para a ferramenta onde não é prevista remoção de material
+    \item[Branco:] caminho programado para a ferramenta onde é prevista remoção de material
+    \item[Vermelho:] marca o caminho percorrido pela ferramenta movida automaticamente seguindo um código G
+\end{itemize}
+
+DRO trás varias informações, das quais as mais importantes são a velocidade e a posição do plano de corte G54 em relação as coordenadas X e Z absolutas.
 
 \begin{figure}[H]
     \begin{center}
@@ -288,7 +297,12 @@ Operar uma máquina CNC envolve riscos que devem ser mitigados seguindo procedim
 
 \subsection{Manutenção Preventiva}
 
-\begin{itemize} \item Inspecione regularmente a máquina em busca de sinais de desgaste ou danos. \item Mantenha a máquina limpa e lubrificada conforme as recomendações do fabricante. \item Relate imediatamente qualquer problema ou anomalia ao responsável técnico. \end{itemize}
+\begin{itemize} 
+    \setlength{\itemindent}{-1em}
+    \item Inspecione regularmente a máquina em busca de sinais de desgaste ou danos. 
+    \item Mantenha a máquina limpa e lubrificada conforme as recomendações do fabricante. 
+    \item Relate imediatamente qualquer problema ou anomalia ao responsável técnico. 
+\end{itemize}
 
 \section{Manutenção Básica}
 
@@ -318,7 +332,9 @@ A manutenção adequada garante o bom funcionamento da máquina e prolonga sua v
 	\item[Encoder] Dispositivo que fornece informações de posição e velocidade do eixo árvore, essencial para operações como rosqueamento.
 	
 	\item[Eixo Árvore] Eixo principal do torno, no qual é fixada a placa de castanhas que segura o tarugo durante a usinagem.
-	
+
+    \item[DRO] Sigla para "Digital Read Out", aba da interface gráfica que exibe informações diversas, como velocidades e posições de planos de corte definidos em relação às coordenadas absolutas.
+
 	\item[G54] Plano de corte padrão no LinuxCNC, geralmente utilizado como referência para definir o zero peça.
 	
 	\item[Homing] Processo de referenciamento dos eixos do torno (X e Z) para estabelecer uma posição inicial de operação da máquina.

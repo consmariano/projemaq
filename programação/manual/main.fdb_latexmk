@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex main.idx"] 1731281401 "main.idx" "main.ind" "main" 1731347071 0
-  "main.idx" 1731347068 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1731281401 "main.idx" "main.ind" "main" 1731594915 0
+  "main.idx" 1731594912 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1731347066 "main.tex" "main.pdf" "main" 1731347071 0
+["pdflatex"] 1731594911 "main.tex" "main.pdf" "main" 1731594915 0
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1699847640 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1699848329 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1699848034 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -73,10 +73,10 @@
   "imagens/halscope.png" 1731372746 85347 020dcefee17a5ea424e4b4753520476a ""
   "imagens/referenciamento_linux_CNC.png" 1731241062 127963 7b3895ded9b99d62b312707caa4a6841 ""
   "imagens/stepconf_config.png" 1731379132 70768 ae7178db1e3e150ff6ee3c174aa693cd ""
-  "main.aux" 1731347070 3587 504b1f7111700c1d854798ab5d795e23 "pdflatex"
+  "main.aux" 1731594915 4529 ecf887cfe633b33749b6ed88c15ecef9 "pdflatex"
   "main.ind" 1731281402 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.tex" 1731347058 18179 71c8e9fcf7a795e19d6ae90d4afe4904 ""
-  "main.toc" 1731347070 1160 425b738fd364237833962b469a6aec14 "pdflatex"
+  "main.tex" 1731594910 23681 ad2d937e5c2c49686bf75f23edd484f3 ""
+  "main.toc" 1731594915 1774 c6f26b55ab1a8f25e6f218b55ccfc4e0 "pdflatex"
   (generated)
   "main.aux"
   "main.idx"
