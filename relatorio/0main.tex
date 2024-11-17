@@ -62,7 +62,7 @@
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{verbatim}           %comentar trechos grandes
 \usepackage{amsmath}
-\usepackage{xcolor}
+% \usepackage{xcolor} % Já é carregado na linha 164
 \usepackage{tabularx}
 %\usepackage{subfigure}
 \usepackage{subcaption}
@@ -89,8 +89,10 @@
 % ---
 %\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 %\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
-\usepackage[style=abnt]{biblatex}
+\usepackage[backend=biber, style=abnt]{biblatex}
 \addbibresource{ref.bib}
+
+\usepackage{csquotes} % Gerencia aspas
 % --- 
 % CONFIGURAÇÕES DE PACOTES
 % --- 
@@ -160,8 +162,9 @@ literate=
 
 % Please add the following required packages to your document preamble:
 \usepackage[table,xcdraw]{xcolor}
+
 % If you use beamer only pass "xcolor=table" option, 
-\documentclass[xcolor=table]{beamer}
+% \documentclass[xcolor=table]{beamer} % --- DUAS CLASSES DE DOCUMENTO LEVANTAM ERROS NO COMPILADOR --- %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % ---
@@ -181,7 +184,7 @@ literate=
         Vinícios de Andrade Cardozo --- NUSP 12554290}
 \local{PMR3411 - Projeto de Máquinas\\
 Escola Politécnica da Universidade de São Paulo}
-\data
+\data{17 de novembro, 2024} % Data da última modificação, atualizar antes da entrega final 
 
 \instituicao{%
   Universidade de São Paulo

@@ -1,0 +1,73 @@
+Aqui eu coloqeui uma copia dos avisos que meu compilador me deu, só para termos alguma pista no caso de algum problema de compilação ou formatação surgir no futuro. Qualquer comentário feito por mim está indicado por '--->'
+
+relatorio\0main.tex|109 error| Package color Error: Argument ` 255' not in range [0,1].
+
+relatorio\0main.tex|110 error| Package color Error: Argument ` 100' not in range [0,1].
+
+relatorio\0main.tex|111 error| Package color Error: Argument `29' not in range [0,1].
+
+relatorio\0main.tex|111 error| Package color Error: Argument ` 41' not in range [0,1].
+
+relatorio\0main.tex|111 error| Package color Error: Argument ` 81' not in range [0,1].
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+relatorio\0main.tex|| LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
+
+relatorio\0main.tex|| Package biblatex Warning: File 'brazilian-abnt-abnt.lbx' not found! Ignoring mapping 'brazilian-abnt' -> 'brazilian-abnt-abnt'.
+
+relatorio\0main.tex|| Package biblatex Warning: File 'french-abnt.lbx' not found! Ignoring mapping 'french' -> 'french-abnt'.
+
+relatorio\0main.tex|| LaTeX Warning: `!h' float specifier changed to `!ht'. ---> O Latex mudou o quão estrito o posicionamento de algumas imagens é, pode afetar o layout no futuro com a adição de novas imagens. Usar o pacote float para utilizar a opção [H] no posicionamento pode ser preciso.
+
+relatorio\0main.tex|93 warning| LaTeX Warning: Command \c invalid in math mode on input line 93.
+
+relatorio\0main.tex|93 warning| LaTeX Warning: Command \~ invalid in math mode on input line 93.
+
+relatorio\2especificacoes.tex|122 error| Undefined control sequence. \item Acoplamento Tipo Fole:  $ \lt
+
+relatorio\2especificacoes.tex|123 error| Undefined control sequence. \item Correias Sincronizadoras: $ \lt
+
+relatorio\0main.tex|240 warning| LaTeX Warning: Command \' invalid in math mode on input line 240.
+
+relatorio\0main.tex|240 warning| LaTeX Warning: Command \' invalid in math mode on input line 240.
+
+relatorio\2especificacoes.tex|294 error| Undefined control sequence.
+
+relatorio\2especificacoes.tex|292 warning| Underfull \hbox (badness 10000) in paragraph at lines 292--296
+
+relatorio\frequencia.tex|51 error| LaTeX Error: Environment dmath undefined. ---> dmath é do pacote breqn, mas adicionar esse pacote é ainda pior, pois a compilação falha
+
+relatorio\frequencia.tex|52 error| Missing $ inserted.
+
+relatorio\frequencia.tex|54 error| LaTeX Error: \begin{document} ended by \end{dmath}.
+
+relatorio\frequencia.tex|54 error| Missing $ inserted.
+
+relatorio\2especificacoes.tex|29 warning| Underfull \hbox (badness 10000) in paragraph at lines 29--31 ---> Espaço não preenchido
+
+relatorio\2especificacoes.tex|36 warning| Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+relatorio\2especificacoes.tex|39 warning| Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+relatorio\0main.tex|| LaTeX Warning: There were multiply-defined labels. ---> As etiquetas de várias imagens são as mesmas

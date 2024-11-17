@@ -1,0 +1,50 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Subgrupos}{1}{section.1.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Especificações de máquina}}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Materiais}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Eixo árvore}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Potência}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Rotação}{3}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Especificações Elétricas}{4}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tensão e Corrente}{4}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Controlador}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Resolução}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Avanço rápido}{5}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Driver e Motor de Passo}{5}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Precisão e Acurácia}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Dimensões e Peso da Máquina}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Cursos e velocidades dos eixos}{7}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Cursos dos Eixos}{7}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.7}Volume de trabalho}{7}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Velocidades dos Eixos}{8}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Frequência Crítica do Laço Estrutural}{11}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Tipo de sincronização entre os eixos}{11}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Parâmetros de usinagem}{11}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Velocidade de corte}{11}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Avanço de corte}{13}{subsection.2.10.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Estudo das soluções}}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Parâmetros avaliados}{14}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Ergonomia}{14}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Frequência Natural das Soluções}{14}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Rigidez (Loop Estrutural)}{16}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Solução 1}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Peso}{16}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Solução 2}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Peso}{18}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Solução 3}{18}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Peso}{18}{subsection.3.4.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Próximos passos}}{20}{chapter.4}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{21}{section*.16}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Anexos}}{22}{chapter.5}%
+\vspace {\cftbeforechapterskip }
