@@ -1,29 +1,30 @@
 # Fdb version 4
-["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1731877752 0
+["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1731936854 0
   "./ref.bib" 1731241392 936 c6eedffac06f826f5107171f48ca1d62 ""
-  "0main.bcf" 1731877750 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
+  "0main.bcf" 1731936853 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
   (generated)
   "0main.bbl"
   "0main.blg"
   (rewritten before read)
-["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1731877752 0
-  "0main.idx" 1731877746 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1731936854 0
+  "0main.idx" 1731936850 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "0main.ilg"
   "0main.ind"
   (rewritten before read)
-["pdflatex"] 1731877741 "0main.tex" "0main.pdf" "0main" 1731877752 2
-  "0main.aux" 1731877750 22029 e867533923adaf8d94b0d8e8692aff29 "pdflatex"
+["pdflatex"] 1731936847 "0main.tex" "0main.pdf" "0main" 1731936854 2
+  "0main.aux" 1731936853 29204 bf6bdf1f43a483f4d13dad2720b94c66 "pdflatex"
   "0main.bbl" 1731873777 2775 7e32698fd1d30474216b4e8cd8fa322c "biber 0main"
   "0main.ind" 1731873627 0 d41d8cd98f00b204e9800998ecf8427e "makeindex 0main.idx"
-  "0main.lof" 1731877750 1187 40c616769ab1df3a863bfdc6f320d90e "pdflatex"
-  "0main.lot" 1731877750 166 d749175ec63fa4fb6833f6338c28dea8 "pdflatex"
-  "0main.run.xml" 1731877750 2607 5e1766811d05594d37ed014b3254b76f "pdflatex"
-  "0main.tex" 1731877740 12641 5521beb9726e42efcf3ace9aad1092d3 ""
-  "0main.toc" 1731877750 4134 6f49d51cfa42c643ac3fcbee37bd446d "pdflatex"
+  "0main.lof" 1731936853 1891 247db9202191a58f92a41aa241437b8b "pdflatex"
+  "0main.lot" 1731936853 475 a8e01a20ee2012c60e19892903e9c7d4 "pdflatex"
+  "0main.run.xml" 1731936853 2607 d672b12ef459e12043e6af38d71294b3 "pdflatex"
+  "0main.tex" 1731936841 12660 14fdd64bfe70d903285308fef85c237d ""
+  "0main.toc" 1731936853 4853 19cf766e577401562c98999fcbf1645b "pdflatex"
   "1introduction.tex" 1731877127 1474 1b9d423e8cad33c357f2f2e29de4edce ""
   "2especificacoes.tex" 1731241392 18583 c8c542bebc7114d564100c1d2bc179bc ""
   "3solucoes.tex" 1731241392 2464 81b2ae78d63ccc03ca70b83088188afd ""
+  "4formalizar.tex" 1731241392 9069 cb5fd17f17a9d6345ade1902f1486e1b ""
   "5conclusao.tex" 1731241392 30 1106ba350a43d30f86614107fc7bfd8c ""
   "6anexos.tex" 1731241392 18 d6e4e6b915231c18387e04f4ebbd6435 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1699849062 2375 baa924870cfb487815765f9094cf3728 ""
@@ -36,6 +37,8 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1699847632 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1699847632 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm" 1699849062 12088 d750ac78274fa7c9f73ba09914c04f8a ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmbx6.tfm" 1699849062 12060 e1421116ee46f156304f311f9d8331aa ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmbx8.tfm" 1699849062 12076 360d279d01701e9e9f0f2427c1d230fe ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1699849062 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1699849062 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm" 1699849062 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
@@ -59,6 +62,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ts1-lmr6.tfm" 1699849062 1572 7f6c70345ebc75b2984442e39b0adcb9 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ts1-lmr8.tfm" 1699849062 1584 a2d340944f7dc70e449dcdfd4f3f8533 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1699849062 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb" 1699849062 125241 791aeb35ceacc2764a175b32709cc6a9 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1699849062 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1699849062 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1699849062 30635 833ec815d446ec453a4913fc26d24cbc ""
@@ -213,9 +217,15 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1699851518 8213028 4edc368e0f7a8bc206eabffa8ba40396 ""
   "c:/texlive/2023/texmf.cnf" 1699851347 713 614551405fc44b98efbf516466e3c909 ""
   "frequencia.tex" 1731241392 5925 a4b4e094b4df8216d292b79fb911fc70 ""
+  "images/Eletrica/Figura11.png" 1731241392 23987 b85e3758039594c1014b505bf878b93c ""
+  "images/Eletrica/Figura12.png" 1731241392 83291 8b5f23bb66d87d269842fc91f7120917 ""
+  "images/Eletrica/Figura1a.png" 1731241392 2774318 48b036905ad189607b1266aceffbfb62 ""
+  "images/Eletrica/Figura1b.png" 1731241392 2626699 bc8583a1a4e6b546ca3fca2607ad43e4 ""
   "images/avanco.png" 1731241392 148004 86e36e3678788e078c833e3b02fe4b5e ""
   "images/frequencia/center-mass-clamped-clamped.png" 1731241392 15347 eae2690d49ca3b171202ec3e648990f5 ""
   "images/frequencia/center-mass-pinned-pinned.png" 1731241392 15141 f32dcc70fd92b48cabde78e3c47877af ""
+  "images/kicad-prof.jpg" 1731241392 721955 ca570b7726a182a5d3461c13bb391981 ""
+  "images/nosso-kicad.jpg" 1731241392 122569 d6092816af1fe61e5935745452095fe6 ""
   "images/rolamentos.png" 1731241392 275297 4151c81cc74066148a5b0e870b154a0c ""
   "images/sol1.png" 1731241392 135058 ab763ea9f026422f3f3589ef30696e35 ""
   "images/sol2.png" 1731241392 338415 f6031617b454ceb52c785433574aa4e9 ""

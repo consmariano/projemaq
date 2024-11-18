@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  17 NOV 2024 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  18 NOV 2024 10:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1639,20 +1639,106 @@ File: images/sol3.png Graphic file (type png)
 <use images/sol3.png>
 Package pdftex.def Info: images/sol3.png  used on input line 59.
 (pdftex.def)             Requested size: 318.49861pt x 343.46019pt.
-[17 <./images/sol2.png>]) (./5conclusao.tex [18 <./images/sol3.png>] [19]) [20
+[17 <./images/sol2.png>]) (./4formalizar.tex [18 <./images/sol3.png>] [19]
 
-]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 314.
- (c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+LaTeX Warning: Reference `fig:prof_schematic' on page 20 undefined on input line 7.
+
+
+LaTeX Warning: Reference `fig:kicad_schematic' on page 20 undefined on input line 7.
+
+<images/kicad-prof.jpg, id=293, 845.559pt x 598.3956pt>
+File: images/kicad-prof.jpg Graphic file (type jpg)
+<use images/kicad-prof.jpg>
+Package pdftex.def Info: images/kicad-prof.jpg  used on input line 11.
+(pdftex.def)             Requested size: 455.0pt x 322.00572pt.
+<images/nosso-kicad.jpg, id=294, 614.295pt x 414.348pt>
+File: images/nosso-kicad.jpg Graphic file (type jpg)
+<use images/nosso-kicad.jpg>
+Package pdftex.def Info: images/nosso-kicad.jpg  used on input line 18.
+(pdftex.def)             Requested size: 455.0pt x 306.90355pt.
+[20
+
+ <./images/kicad-prof.jpg>] [21 <./images/nosso-kicad.jpg>]
+
+LaTeX Warning: Reference `fig:montagem-teste' on page 22 undefined on input line 42.
+
+<images/Eletrica/Figura1a.png, id=309, 1204.5pt x 1606.0pt>
+File: images/Eletrica/Figura1a.png Graphic file (type png)
+<use images/Eletrica/Figura1a.png>
+Package pdftex.def Info: images/Eletrica/Figura1a.png  used on input line 47.
+(pdftex.def)             Requested size: 159.25278pt x 212.31613pt.
+<images/Eletrica/Figura1b.png, id=310, 1204.5pt x 1606.0pt>
+File: images/Eletrica/Figura1b.png Graphic file (type png)
+<use images/Eletrica/Figura1b.png>
+Package pdftex.def Info: images/Eletrica/Figura1b.png  used on input line 50.
+(pdftex.def)             Requested size: 159.25278pt x 212.31613pt.
+
+LaTeX Warning: Reference `fig:setup-curva-fig2' on page 22 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:setup-curva-fig10' on page 22 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:setup-curva-fig10' on page 22 undefined on input line 61.
+
+[22 <./images/Eletrica/Figura1a.png (PNG copy)> <./images/Eletrica/Figura1b.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:alpha' on page 23 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:cilindro-oco' on page 23 undefined on input line 84.
+
+
+LaTeX Warning: Reference `eq:modelo-cilindro' on page 23 undefined on input line 84.
+
+<images/Eletrica/Figura11.png, id=317, 339.2675pt x 203.76125pt>
+File: images/Eletrica/Figura11.png Graphic file (type png)
+<use images/Eletrica/Figura11.png>
+Package pdftex.def Info: images/Eletrica/Figura11.png  used on input line 88.
+(pdftex.def)             Requested size: 273.00278pt x 163.96994pt.
+[23 <./images/Eletrica/Figura11.png>]
+
+LaTeX Warning: Reference `eq:massa' on page 24 undefined on input line 118.
+
+
+LaTeX Warning: Reference `eq:volume' on page 24 undefined on input line 118.
+
+
+LaTeX Warning: Reference `eq:modelo-cicindro' on page 24 undefined on input line 118.
+
+
+LaTeX Warning: Reference `tab:tab-dados-inercias' on page 24 undefined on input line 118.
+
+
+LaTeX Warning: Reference `tab:valores-v-torques' on page 24 undefined on input line 142.
+
+[24]
+
+LaTeX Warning: Reference `fig:curva-motor' on page 25 undefined on input line 173.
+
+<images/Eletrica/Figura12.png, id=336, 1296.845pt x 803.0pt>
+File: images/Eletrica/Figura12.png Graphic file (type png)
+<use images/Eletrica/Figura12.png>
+Package pdftex.def Info: images/Eletrica/Figura12.png  used on input line 177.
+(pdftex.def)             Requested size: 386.75278pt x 239.48053pt.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 182.
+(c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./6anexos.tex [21
+) (./5conclusao.tex
+Overfull \hbox (9.11122pt too wide) in paragraph at lines 182--1
+\T1/lmtt/m/n/12 spreadsheets / d / 1jPysggAJq _ oss58Nr7ke5LIBtbU1b9r-[]ls-[]9ijTzHxM / edit ? gid = 0 # gid =
+ []
 
-]) (./0main.ind) [22
+[25 <./images/Eletrica/Figura12.png>] [26]) [27
+
+] (./6anexos.tex [28
+
+]) (./0main.ind) [29
 
 ]
 \tf@lof=\write6
@@ -1671,25 +1757,35 @@ L3 programming layer <2020/03/25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to '0main.run.xml'.
 \openout1 = `0main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32458 strings out of 474272
- 568076 string characters out of 5751547
- 1940533 words of memory out of 5000000
- 53954 multiletter control sequences out of 15000+600000
- 622924 words of font info for 144 fonts, out of 8000000 for 9000
+ 32592 strings out of 474272
+ 570817 string characters out of 5751547
+ 1941533 words of memory out of 5000000
+ 54047 multiletter control sequences out of 15000+600000
+ 629365 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1150b,4331s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 0main.pdf (27 pages, 1342985 bytes).
+
+pdfTeX warning (dest): name{section*.16} has been referenced but does not exist, replaced by a fixed one
+
+<c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 0main.pdf (34 pages, 7682773 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
- 43899 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 624 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 48073 words of extra memory for PDF output out of 51595 (max. 10000000)
 

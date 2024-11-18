@@ -42,9 +42,16 @@
 \contentsline {section}{\numberline {3.4}Solução 3}{18}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Peso}{18}{subsection.3.4.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Próximos passos}}{20}{chapter.4}%
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias}{21}{section*.16}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Projeto}}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Esquema Elétrico}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Levantamento da curva do motor de passo}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Montagem para realizar o teste}{21}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Passo a passo para abrir o Stepper Configuration Wizard e fazer os testes}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Processamento para gerar a curva do motor}{23}{subsection.4.2.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Anexos}}{22}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Próximos passos}}{27}{chapter.5}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{28}{section*.23}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Anexos}}{29}{chapter.6}%
 \vspace {\cftbeforechapterskip }
