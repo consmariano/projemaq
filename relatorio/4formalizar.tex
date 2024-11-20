@@ -180,3 +180,51 @@ Possuindo os dados de torque correspondentes a cada velocidade, foi possível pl
 \end{figure}
 
 Adicionalmente, a planilha utilizada para registrar tais valores, assim como cálculos e plotagem do gráfico pode ser encontrada no link a seguir:  \url{https://docs.google.com/spreadsheets/d/1jPysggAJq_oss58Nr7ke5LIBtbU1b9r-ls-9ijTzHxM/edit?gid=0#gid=0}.
+
+
+\section{Medição da Precisão e Acurácia}
+\subsection{Metodologia} 
+Primeiramente, é escolhida uma posição de origem para a mesa, na qual o relógio comparador é posicionado. A partir disso, a ela é deslocada a uma distância pré-determinada da origem e o comando de "home" é dado para que ela retorne a origem. Assim, o relógio mede a diferença entre a posição teórica (distância percorrida pela mesa) e sua posição real.
+
+Esse procedimento foi realizado para duas posições teóricas, 100mm e 60mm para o eixo Z e 60mm e 30mm para o eixo X, com 5 medições para cada e velocidade de 200mm/s.
+
+Uma vez que a acurácia é a proximidade entre o valor obtido experimentalmente e o valor verdadeiro na medição de uma grandeza física, ela foi calculada pela subtração da média das medições pelo valor real. Já a precisão, que significa grau de variação que surge a partir de diferentes medições, foi medida pelo desvio padrão entre as medições
+
+\subsection{Resultados} 
+Assim, após as medições, os resultados obtidos foram: 
+
+% Tabela para o Eixo Z
+\begin{table}[H]
+\centering
+\caption{Resultados das medidas no Eixo Z}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{Distância [mm] 100} & \multicolumn{2}{|c|}{Distância [mm] 60} \\ \hline
+Número & Medidas [mm] & Número & Medidas [mm] \\ \hline
+1 & 100.041 & 1 & 60.031 \\ \hline
+2 & 100.042 & 2 & 60.030 \\ \hline
+3 & 100.040 & 3 & 60.030 \\ \hline
+4 & 100.040 & 4 & 60.031 \\ \hline
+5 & 100.039 & 5 & 60.030 \\ \hline
+Precisão & 0.001140175 & Precisão & 0.000547723 \\ \hline
+Acurácia & 0.0404 & Acurácia & 0.0304 \\ \hline
+\end{tabular}
+\end{table}
+
+% Tabela para o Eixo X
+\begin{table}[H]
+\centering
+\caption{Resultados das medidas no Eixo X}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{Distância [mm] 60} & \multicolumn{2}{|c|}{Distância [mm] 30} \\ \hline
+Número & Medidas [mm] & Número & Medidas [mm] \\ \hline
+1 & 60.039 & 1 & 30.030 \\ \hline
+2 & 60.038 & 2 & 30.031 \\ \hline
+3 & 60.038 & 3 & 30.030 \\ \hline
+4 & 60.038 & 4 & 30.030 \\ \hline
+5 & 60.038 & 5 & 30.030 \\ \hline
+Precisão & 0.000447214 & Precisão & 0.000447214 \\ \hline
+Acurácia & 0.0382 & Acurácia & 0.0302 \\ \hline
+\end{tabular}
+\end{table}
