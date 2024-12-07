@@ -78,3 +78,70 @@ Peso extra relacionado a solução 2: 15,7kg \\
 
 
 
+\section{Matriz de Decisão}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|} \hline 
+        \multicolumn{2}{|c|}{}& \multicolumn{2}{|c|}{\textbf{Solução 1}} & \multicolumn{2}{|c|}{\textbf{Solução 2}} & \multicolumn{2}{|c|}{\textbf{Solução 3}} \\ \hline  \textbf{Critério}&  \textbf{Peso}& \textbf{Nota} & \textbf{PxN} & \textbf{Nota} & \textbf{PxN} & \textbf{Nota} & \textbf{PxN} \\ \hline  
+        Peso & 3 & 3& 9& 5& 15& 3& 9
+\\ \hline  
+        Rigidez & 7 & 5& 35& 5& 35& 3& 21
+\\ \hline  
+        Frequência natural & 5 & 3& 15& 5& 25& 1& 5
+\\ \hline  
+        Velocidade e acelerações & 6 & 3& 18& 5& 30& 3& 18
+\\ \hline  
+        Erro de Abbe & 3 & 3& 9& 5& 15& 1& 3
+\\ \hline  
+        Facilidade de montagem & 2 & 3& 6& 5& 10& 1& 2
+\\ \hline  
+        Facilidade de manufatura & 1 & 3& 3& 5& 5& 3& 3
+\\ \hline  
+        Segurança do operador & 4 & 1& 4& 5& 20& 5& 20\\ \hline  
+ \multicolumn{2}{|c|}{Média Ponderada}& \multicolumn{2}{|c|}{3,35}& \multicolumn{2}{|c|}{4,74}& \multicolumn{2}{|c|}{2,35}\\ \hline 
+    \end{tabular}
+    \caption{Matriz de decisão entre as soluções propostas.}
+    \label{tab:comparativa}
+\end{table}
+
+\subsection{justificativa das notas atribídas}
+
+Para todos os critérios, as notas variam de 1 a 5 e procura-se atribuir apenas notas ímpares para as soluções de maneira que haja distanciamento significativo entre as notas medias ponderadas, possibilitando a escolha da solução. 
+
+\begin{itemize}
+    \item Peso
+    
+    Tanto a solução 1 quanto a 3 possuem uma chapa que une a mesa superior à mesa inferior. Por isso, receberam notas menores do que a solução 2. Além disso, o peso adicionado por essa chapa é igual em ambos os casos e não é tão significativo quando comparado ao peso total da máquina para justificar a atribuição de uma nota "1" para as soluções. 
+    
+    \item Rigidez
+    
+    A solução 1 e 2 receberam nota máxima nesse quesito, pois é possível identificar que o material a ser uninado seria o ponto mais fraco do laço estrutural. Já para a solução 3 foi atribuída uma nota menor, pois como a ferramenta estaria fixada na ponta da mesa em balanço, a mesa poderia sofrer deformações que afetassem a rigidez da solução.
+    
+    \item Frequência natural
+    
+    Dados os modelos de uma viga bi-apoiada para as soluções 1 e 2, e de uma viga com uma das extremidades engastada e a outra em balanço para a solução 3, foram calculadas as frequências naturais de oscilações da estrutura composta pelas guias e mesa deslizantes superiores ads soluções. Assim, as notas foram atribuidas de maneira diretamente proporcional à frequência obtida. 
+    
+    \item Velocidade e acelerações
+    Como as soluções 1 e 3 possuem maior massa móvel que a 1, foram obtidas para elas acelerações e velocidades máximas menores que para solução 2. assim, elas receberam notas menores
+    
+    \item Erro de Abbe
+    
+    O Erro de Abbe foi considerado ao analisar a altura da ferramenta em relação ao seu ponto de fixação na quia ou mesa. Essa metodologia foi escolhida pois quanto maior é o porta ferramentas, maior é a deformação gerada nele por conta das forças de usinagem e maior o erro de Abbe.
+    
+    \item Facilidade de montagem
+    
+    Esse critério foi analisado contando o número de peças necessárias para formar a solução. Além disso, a solução 3 recebeu uma nota menor que a 1, apesar de ter o mesmo numero de peças, por ter uma das extremidades em balanço, o que causaria uma dificuldade para alinhamento das estruturas.
+    
+    \item Facilidade de manufatura
+    
+    Esse critério foi analisado contando o número de peças necessárias para formar a solução. A solução com menor número de peças recebeu a maior nota.
+    
+    \item Segurança do operador
+    
+    As soluções 1 e 2 receberam as mesmas notas, mas a solução 3 recebeu uma nota menor por conta da possibilidade de acidentes que podem ser causados pelas vibrações e deformações excessivas em sua extremidade livre.
+    
+\end{itemize}
+
+
+
