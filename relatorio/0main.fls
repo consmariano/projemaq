@@ -522,6 +522,10 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
+INPUT ./7programacao.tex
+INPUT ./7programacao.tex
+INPUT 7programacao.tex
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT ./5conclusao.tex
 INPUT ./5conclusao.tex
 INPUT ./5conclusao.tex
@@ -551,6 +555,7 @@ INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb

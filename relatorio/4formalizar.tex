@@ -184,9 +184,16 @@ Adicionalmente, a planilha utilizada para registrar tais valores, assim como cá
 
 \section{Medição da Precisão e Acurácia}
 \subsection{Metodologia} 
-Primeiramente, é escolhida uma posição de origem para a mesa, na qual o relógio comparador é posicionado. A partir disso, a ela é deslocada a uma distância pré-determinada da origem e o comando de "home" é dado para que ela retorne a origem. Assim, o relógio mede a diferença entre a posição teórica (distância percorrida pela mesa) e sua posição real.
+Primeiramente a posição de origem da mesa é cuidadosamente definida no ponto em que o carro toca a ponta do relógio comparador posicionado, este relógio tem sua posição fixada à extremidade do fuso a ser testado por meio de uma base magnética. Nesse ponto de contato inicial é definido o zero máquina utilizando-se da função de homing do LinuxCNC. 
 
-Esse procedimento foi realizado para duas posições teóricas, 100mm e 60mm para o eixo Z e 60mm e 30mm para o eixo X, com 5 medições para cada e velocidade de 200mm/s.
+Utilizando o terminal MDI (Manual Data Input) é comandado que o carro se afaste da origem definida a uma distância pré-determinada e em seguida retorne a mesma distância utilizando códigos G, assim eliminando o fator de erro humano nos deslocamentos. Assim, o relógio mede a diferença entre o deslocamento teórico (deslocamento ordenado pelo comando) e seu deslocamento real.
+
+Esse procedimento foi realizado utilizando uma velocidade de deslocamento constante de 200mm/s para dois deslocamentos teóricos por eixo, 100mm e 60mm para o eixo Z, 60mm e 30mm para o eixo X, com 5 medições coletadas do relógio comparador para cada. A seguir, como exemplo do que foi feito, dois comandos utilizados para o primeiro teste do eixo Z:
+
+\begin{center}
+    G53 X0. Z100. F200. \\
+    G53 X0. Z0. F200. 
+\end{center}
 
 Uma vez que a acurácia é a proximidade entre o valor obtido experimentalmente e o valor verdadeiro na medição de uma grandeza física, ela foi calculada pela subtração da média das medições pelo valor real. Já a precisão, que significa grau de variação que surge a partir de diferentes medições, foi medida pelo desvio padrão entre as medições
 

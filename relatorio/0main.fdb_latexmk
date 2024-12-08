@@ -1,32 +1,33 @@
 # Fdb version 4
-["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1731936854 0
+["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1733689030 0
   "./ref.bib" 1731241392 936 c6eedffac06f826f5107171f48ca1d62 ""
-  "0main.bcf" 1731936853 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
+  "0main.bcf" 1733689028 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
   (generated)
   "0main.bbl"
   "0main.blg"
   (rewritten before read)
-["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1731936854 0
-  "0main.idx" 1731936850 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1733689030 0
+  "0main.idx" 1733689022 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "0main.ilg"
   "0main.ind"
   (rewritten before read)
-["pdflatex"] 1731936847 "0main.tex" "0main.pdf" "0main" 1731936854 2
-  "0main.aux" 1731936853 29204 bf6bdf1f43a483f4d13dad2720b94c66 "pdflatex"
+["pdflatex"] 1733689016 "0main.tex" "0main.pdf" "0main" 1733689030 2
+  "0main.aux" 1733689027 39362 46e5a5c4eb379e0f0ae0fcd4a82a758d "pdflatex"
   "0main.bbl" 1731873777 2775 7e32698fd1d30474216b4e8cd8fa322c "biber 0main"
   "0main.ind" 1731873627 0 d41d8cd98f00b204e9800998ecf8427e "makeindex 0main.idx"
-  "0main.lof" 1731936853 1891 247db9202191a58f92a41aa241437b8b "pdflatex"
-  "0main.lot" 1731936853 475 a8e01a20ee2012c60e19892903e9c7d4 "pdflatex"
-  "0main.run.xml" 1731936853 2607 d672b12ef459e12043e6af38d71294b3 "pdflatex"
-  "0main.tex" 1731936841 12660 14fdd64bfe70d903285308fef85c237d ""
-  "0main.toc" 1731936853 4853 19cf766e577401562c98999fcbf1645b "pdflatex"
+  "0main.lof" 1733689028 1891 02b9a3f331399632c0bd589c0348798b "pdflatex"
+  "0main.lot" 1733689028 933 9c7814e6b569840d8d90bdaa191c8d06 "pdflatex"
+  "0main.run.xml" 1733689028 2607 5e1766811d05594d37ed014b3254b76f "pdflatex"
+  "0main.tex" 1733687013 12686 1bad9e1efea9fcabdac5400a77ee63a2 ""
+  "0main.toc" 1733689028 6642 d6b6a65fb59b3cc2f23b489e64bb1f22 "pdflatex"
   "1introduction.tex" 1731877127 1474 1b9d423e8cad33c357f2f2e29de4edce ""
   "2especificacoes.tex" 1731241392 18583 c8c542bebc7114d564100c1d2bc179bc ""
-  "3solucoes.tex" 1731241392 2464 81b2ae78d63ccc03ca70b83088188afd ""
-  "4formalizar.tex" 1731241392 9069 cb5fd17f17a9d6345ade1902f1486e1b ""
+  "3solucoes.tex" 1733672153 7016 c61bb80cdadc5877fe514ab4e83dfe06 ""
+  "4formalizar.tex" 1733689016 12005 c19b334bd9d515df757994b4f6c13e1f ""
   "5conclusao.tex" 1731241392 30 1106ba350a43d30f86614107fc7bfd8c ""
   "6anexos.tex" 1731241392 18 d6e4e6b915231c18387e04f4ebbd6435 ""
+  "7programacao.tex" 1733687013 8813 dd57146f6bf1c711b972fb6651c95bc3 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1699849062 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1699849062 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1699849062 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -44,6 +45,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm" 1699849062 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm" 1699849062 12064 9b9ade9f64cb32ce1d9a88d21fbd5c2d ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm" 1699849062 17148 9556e1b5f936b77a796f68d2d559ba99 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm" 1699849062 17144 271aaf9ebb339934b04110dc5211fba4 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm" 1699849062 11232 955a7245396175d9219648eadc654ac9 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm" 1699849062 11252 57c8b53a3aeebba8c17658d4221d47ec ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm" 1699849062 11168 06d87f5698fd1b642d96449b7c8d90b0 ""
@@ -71,6 +73,7 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb" 1699849062 123394 992f5e87d698d9e94717394c62580ea6 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1699849062 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb" 1699849062 112593 fda2373ba4420af33949610de4c28fe8 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb" 1699849062 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb" 1699849062 96107 daf52840b555e3b38f9679b629b5e2df ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb" 1699849062 97155 ffb6880a68751002f414154d64548ca3 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb" 1699849062 119663 1a3a2206591ddc98c6d6c6271a282516 ""
