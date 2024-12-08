@@ -1,0 +1,111 @@
+\chapter{Programação}
+
+A utilização do LinuxCNC em um torno CNC permite a execução de programas de usinagem complexos por meio de códigos G, garantindo precisão no posicionamento e no controle de movimentos. A programação adequada envolve não apenas o preparo do ambiente (configuração de eixos, homing e seleção de planos de corte), mas também a implementação de ferramentas auxiliares, como o uso do qjoypad para mapear comandos do teclado em um Joystick, tornando a operação manual mais intuitiva.
+
+Este relatório resume as etapas e considerações essenciais do ponto de vista da programação da máquina. Partimos do referenciamento inicial, passando pelo carregamento de programas em código G e pela definição de zeros de peça, até a discussão sobre desafios operacionais do qjoypad.
+
+\section{Tratamento Inicial da Peça: Desbaste e Faceamento}
+
+Antes de executar códigos G complexos, é essencial preparar a peça para a usinagem por meio de operações de desbaste e faceamento. Essas etapas garantem superfícies regulares e dimensões iniciais adequadas para a peça.
+
+\subsection{Posicionamento Manual da Ferramenta}
+
+Para ambas as operações, o operador deve posicionar a ferramenta manualmente:
+
+\begin{itemize}
+    \item Utilize o controle manual (Joystick ou teclado) para aproximar a ferramenta da peça.
+    \item Ajuste a velocidade de avanço (Jog Speed) para um valor seguro, geralmente entre 20 e 50 mm/s.
+    \item Posicione a ferramenta próximo à superfície da peça, garantindo uma pequena folga para evitar colisões.
+\end{itemize}
+
+\subsection{Desbaste}
+
+O desbaste remove o excesso de material da superfície externa da peça, garantindo uniformidade ao diâmetro. Procedimentos principais:
+
+\begin{itemize}
+    \item Mova a ferramenta lateralmente ao longo do eixo Z, mantendo o eixo X fixo.
+    \item Realize cortes sucessivos, reduzindo gradualmente o diâmetro até atingir o valor desejado.
+    \item Monitore visualmente o processo e ajuste a velocidade de avanço conforme necessário.
+\end{itemize}
+
+\subsection{Faceamento}
+
+O faceamento nivela a face da peça, removendo irregularidades. Etapas:
+
+\begin{itemize}
+    \item Posicione a ferramenta próxima à extremidade frontal da peça.
+    \item Mova a ferramenta ao longo do eixo X, com o eixo Z fixo.
+    \item Realize cortes suaves e uniformes até que toda a face da peça esteja nivelada.
+\end{itemize}
+
+Ambas as operações devem ser realizadas com cuidado para evitar colisões e assegurar que a peça esteja firme na placa de fixação.
+
+\section{Configuração Inicial do Ambiente de Programação}
+
+Antes de iniciar a programação efetiva do torno, é preciso preparar o ambiente de execução do LinuxCNC. Alguns pontos-chave:
+
+\begin{itemize}
+    \item \textbf{Ligação dos dispositivos:} É recomendável que a caixa de controle da máquina esteja ligada e o Joystick conectado antes da inicialização do computador. Isso previne problemas de detecção de periféricos pelo LinuxCNC.
+    \item \textbf{Login e Sistema:} Após ligar o computador (com caixa de controle já energizada), efetua-se o login no sistema operacional. 
+    \item \textbf{Execução do LinuxCNC:} Com o LinuxCNC aberto, deve-se selecionar a configuração apropriada do torno. Uma vez carregada a interface principal, o usuário pode então dar início à programação e à interação com o ambiente de usinagem.
+\end{itemize}
+
+\section{Referenciamento (Homing) e Modos de Coordenadas}
+
+Um passo fundamental na etapa de programação é o homing dos eixos (X e Z). Esse processo estabelece a posição de referência absoluta da máquina, conhecida como zero máquina, imprescindível para qualquer subsequente programa em código G. 
+
+Após realizar o homing, o usuário pode definir planos de corte (por exemplo, G54) e zeros de peça, garantindo que o código G seja interpretado corretamente em relação à posição física da ferramenta e do tarugo a ser usinado.
+
+\subsection{Definição do Zero Peça}
+
+Definir o zero peça envolve posicionar a ferramenta em contato com o material e, através de recursos do LinuxCNC (como o apalpador), informar ao controlador o deslocamento necessário. Para o eixo Z, posiciona-se a ferramenta na face do tarugo; já para o eixo X, é necessário conhecer o diâmetro do tarugo. Essa informação garante que o código G seja interpretado corretamente, especialmente ao trabalhar em modo de diâmetro (G7).
+
+O correto ajuste do zero peça é determinante para assegurar que o caminho programado no código G resulte em movimentos seguros e precisos, evitando colisões e garantindo o correto posicionamento da ferramenta em relação à geometria desejada.
+
+\section{Carregando e Executando Código G}
+
+A programação do torno CNC via LinuxCNC baseia-se na leitura e execução de arquivos com extensão \textit{.ngc}, contendo instruções G-code. Após ajustar o zero peça e conferir se o modo de diâmetro (G7) está ativado quando necessário, o usuário pode abrir o arquivo desejado:
+
+\begin{itemize}
+    \item \textbf{Seleção do Programa:} Através da interface gráfica do LinuxCNC, o usuário seleciona o arquivo \textit{.ngc} a ser executado.
+    \item \textbf{Pré-visualização:} Antes da execução, o preview mostra o caminho da ferramenta, permitindo checar visualmente se o trajeto faz sentido.
+    \item \textbf{Execução:} Ao dar início à execução, o LinuxCNC seguirá as instruções do código G, respeitando parâmetros de avanço, velocidade e comandos de mudança de ferramenta.
+\end{itemize}
+
+Durante este processo, é possível ajustar fatores como a velocidade máxima de execução, garantindo maior segurança caso haja incerteza sobre o comportamento do programa.
+
+\section{Interação Manual e Mapeamento de Comandos com qjoypad}
+
+Apesar do foco na execução automatizada, o controle manual é frequentemente necessário na programação e no ajuste inicial da máquina. O LinuxCNC aceita comandos via teclado, mas essa interface pode ser pouco prática. Para contornar isso, emprega-se o qjoypad, que mapeia entradas de um Joystick para teclas do teclado, tornando o controle manual mais intuitivo.
+
+\subsection{Comandos Mapeados}
+
+O Joystick, via qjoypad, costuma ser configurado para:
+
+\begin{itemize}
+    \item Mover o carro do torno (eixos X e Z).
+    \item Ajustar a velocidade de avanço manual (Jog Speed).
+    \item Executar ações de homing e seleção de eixos.
+\end{itemize}
+
+Isso permite ao operador se concentrar nos movimentos da ferramenta sem precisar recorrer constantemente ao teclado, melhorando a ergonomia e a precisão do posicionamento manual.
+
+\section{Problemas e Desafios com o qjoypad}
+
+Durante o desenvolvimento e uso do qjoypad para integrar o Joystick ao LinuxCNC, alguns problemas foram identificados:
+
+\begin{itemize}
+    \item \textbf{Detecção Inconsistente do Joystick:} Em alguns casos, o Joystick não é reconhecido se não estava conectado antes da inicialização do LinuxCNC. Isso pode exigir reinicializações desnecessárias.
+    \item \textbf{Dependência do Terminal Ativo:} Ao executar o qjoypad a partir de um terminal, fechar a janela do terminal encerra o processo, causando perda da funcionalidade do Joystick.
+    \item \textbf{Perda de Configurações ao Reiniciar:} O mapeamento precisa ser refeito ou reaberto a cada nova sessão, o que pode ser trabalhoso se não houver um script de inicialização automatizando esse procedimento.
+\end{itemize}
+
+Para mitigar esses problemas, recomenda-se a criação de um script de inicialização para o qjoypad, bem como o salvamento de perfis pré-definidos. Assim, a cada uso da máquina, o setup do Joystick será mais simples, reduzindo o tempo de preparação para a programação.
+
+\section{Conclusão}
+
+A etapa de programação do torno CNC com LinuxCNC envolve não apenas a elaboração do código G, mas também a preparação de um ambiente adequado. O referenciamento (homing), a definição do zero peça e a seleção apropriada de modos de operação (como G7 para diâmetros) garantem que o código seja interpretado e executado corretamente.
+
+A ferramenta qjoypad surge como uma solução para tornar a interação manual mais intuitiva, mapeando comandos do teclado para um Joystick. Apesar das vantagens, surgem desafios que requerem ajustes no fluxo de trabalho, como a necessidade de manter o qjoypad ativo e garantir que o Joystick seja reconhecido na inicialização.
+
+Com o devido preparo da peça, via desbaste e faceamento, e uma configuração bem ajustada, o operador pode executar programas com maior precisão e segurança, garantindo resultados de qualidade na usinagem.

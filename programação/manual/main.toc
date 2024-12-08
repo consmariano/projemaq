@@ -23,3 +23,10 @@
 \contentsline {subsection}{\numberline {7.1}Limpeza}{14}{}%
 \contentsline {subsection}{\numberline {7.2}Lubrificação}{14}{}%
 \contentsline {subsection}{\numberline {7.3}Verificações Periódicas}{14}{}%
+\contentsline {section}{\numberline {8}Tratamento Inicial da Peça: Desbaste e Faceamento}{15}{}%
+\contentsline {section}{\numberline {9}Configuração Inicial do Ambiente de Programação}{16}{}%
+\contentsline {section}{\numberline {10}Referenciamento (Homing) e Modos de Coordenadas}{16}{}%
+\contentsline {section}{\numberline {11}Carregando e Executando Código G}{16}{}%
+\contentsline {section}{\numberline {12}Interação Manual e Mapeamento de Comandos com qjoypad}{16}{}%
+\contentsline {section}{\numberline {13}Problemas e Desafios com o qjoypad}{16}{}%
+\contentsline {section}{\numberline {14}Conclusão}{17}{}%
