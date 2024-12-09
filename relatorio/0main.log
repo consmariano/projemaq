@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  8 DEC 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.13)  8 DEC 2024 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1449,7 +1449,7 @@ l.1 \newpage
 
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/rolamentos.png, id=215, 466.74374pt x 166.37157pt>
+<images/rolamentos.png, id=236, 466.74374pt x 166.37157pt>
 File: images/rolamentos.png Graphic file (type png)
 <use images/rolamentos.png>
 Package pdftex.def Info: images/rolamentos.png  used on input line 27.
@@ -1466,7 +1466,7 @@ l.38
       [2
 
 ]
-<images/torque.png, id=221, 236.38312pt x 133.24782pt>
+<images/torque.png, id=242, 236.38312pt x 133.24782pt>
 File: images/torque.png Graphic file (type png)
 <use images/torque.png>
 Package pdftex.def Info: images/torque.png  used on input line 41.
@@ -1508,7 +1508,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6]
-<images/vtrab.png, id=250, 648.92438pt x 341.77687pt>
+<images/vtrab.png, id=271, 648.92438pt x 341.77687pt>
 File: images/vtrab.png Graphic file (type png)
 <use images/vtrab.png>
 Package pdftex.def Info: images/vtrab.png  used on input line 143.
@@ -1538,24 +1538,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--296
  []
 
 [11]
-<images/vc_torno.png, id=293, 201.37735pt x 184.06265pt>
+<images/vc_torno.png, id=314, 201.37735pt x 184.06265pt>
 File: images/vc_torno.png Graphic file (type png)
 <use images/vc_torno.png>
 Package pdftex.def Info: images/vc_torno.png  used on input line 301.
 (pdftex.def)             Requested size: 318.49861pt x 291.1163pt.
  [12 <./images/vc_torno.png>]
-<images/avanco.png, id=302, 352.31625pt x 174.6525pt>
+<images/avanco.png, id=324, 352.31625pt x 174.6525pt>
 File: images/avanco.png Graphic file (type png)
 <use images/avanco.png>
 Package pdftex.def Info: images/avanco.png  used on input line 337.
 (pdftex.def)             Requested size: 318.49861pt x 157.88934pt.
 ) (./3solucoes.tex [13 <./images/avanco.png>] (./frequencia.tex
-<images/frequencia/center-mass-pinned-pinned.png, id=314, 166.12062pt x 102.88437pt>
+<images/frequencia/center-mass-pinned-pinned.png, id=335, 166.12062pt x 102.88437pt>
 File: images/frequencia/center-mass-pinned-pinned.png Graphic file (type png)
 <use images/frequencia/center-mass-pinned-pinned.png>
 Package pdftex.def Info: images/frequencia/center-mass-pinned-pinned.png  used on input line 9.
 (pdftex.def)             Requested size: 204.74861pt x 126.81546pt.
-<images/frequencia/center-mass-clamped-clamped.png, id=315, 173.64874pt x 108.405pt>
+<images/frequencia/center-mass-clamped-clamped.png, id=336, 173.64874pt x 108.405pt>
 File: images/frequencia/center-mass-clamped-clamped.png Graphic file (type png)
 <use images/frequencia/center-mass-clamped-clamped.png>
 Package pdftex.def Info: images/frequencia/center-mass-clamped-clamped.png  used on input line 13.
@@ -1609,7 +1609,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [15{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}])
-<images/sol1.png, id=343, 313.9228pt x 245.41687pt>
+<images/sol1.png, id=364, 313.9228pt x 245.41687pt>
 File: images/sol1.png Graphic file (type png)
 <use images/sol1.png>
 Package pdftex.def Info: images/sol1.png  used on input line 22.
@@ -1629,23 +1629,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<images/sol2.png, id=349, 323.70938pt x 368.1253pt>
+<images/sol2.png, id=370, 323.70938pt x 368.1253pt>
 File: images/sol2.png Graphic file (type png)
 <use images/sol2.png>
 Package pdftex.def Info: images/sol2.png  used on input line 48.
 (pdftex.def)             Requested size: 318.49861pt x 362.2208pt.
-<images/sol3.png, id=350, 288.3272pt x 310.91156pt>
+<images/sol3.png, id=371, 288.3272pt x 310.91156pt>
 File: images/sol3.png Graphic file (type png)
 <use images/sol3.png>
 Package pdftex.def Info: images/sol3.png  used on input line 59.
 (pdftex.def)             Requested size: 318.49861pt x 343.46019pt.
 [17 <./images/sol2.png>] [18 <./images/sol3.png>] [19]) (./4formalizar.tex [20]
-<images/kicad-prof.jpg, id=372, 845.559pt x 598.3956pt>
+<images/kicad-prof.jpg, id=393, 845.559pt x 598.3956pt>
 File: images/kicad-prof.jpg Graphic file (type jpg)
 <use images/kicad-prof.jpg>
 Package pdftex.def Info: images/kicad-prof.jpg  used on input line 11.
 (pdftex.def)             Requested size: 455.0pt x 322.00572pt.
-<images/nosso-kicad.jpg, id=373, 614.295pt x 414.348pt>
+<images/nosso-kicad.jpg, id=394, 614.295pt x 414.348pt>
 File: images/nosso-kicad.jpg Graphic file (type jpg)
 <use images/nosso-kicad.jpg>
 Package pdftex.def Info: images/nosso-kicad.jpg  used on input line 18.
@@ -1653,12 +1653,12 @@ Package pdftex.def Info: images/nosso-kicad.jpg  used on input line 18.
  [21
 
  <./images/kicad-prof.jpg>] [22 <./images/nosso-kicad.jpg>]
-<images/Eletrica/Figura1a.png, id=383, 1204.5pt x 1606.0pt>
+<images/Eletrica/Figura1a.png, id=404, 1204.5pt x 1606.0pt>
 File: images/Eletrica/Figura1a.png Graphic file (type png)
 <use images/Eletrica/Figura1a.png>
 Package pdftex.def Info: images/Eletrica/Figura1a.png  used on input line 47.
 (pdftex.def)             Requested size: 159.25278pt x 212.31613pt.
-<images/Eletrica/Figura1b.png, id=384, 1204.5pt x 1606.0pt>
+<images/Eletrica/Figura1b.png, id=405, 1204.5pt x 1606.0pt>
 File: images/Eletrica/Figura1b.png Graphic file (type png)
 <use images/Eletrica/Figura1b.png>
 Package pdftex.def Info: images/Eletrica/Figura1b.png  used on input line 50.
@@ -1674,7 +1674,7 @@ LaTeX Warning: Reference `fig:setup-curva-fig10' on page 23 undefined on input l
 LaTeX Warning: Reference `fig:setup-curva-fig10' on page 23 undefined on input line 61.
 
 [23 <./images/Eletrica/Figura1a.png (PNG copy)> <./images/Eletrica/Figura1b.png (PNG copy)>]
-<images/Eletrica/Figura11.png, id=392, 339.2675pt x 203.76125pt>
+<images/Eletrica/Figura11.png, id=413, 339.2675pt x 203.76125pt>
 File: images/Eletrica/Figura11.png Graphic file (type png)
 <use images/Eletrica/Figura11.png>
 Package pdftex.def Info: images/Eletrica/Figura11.png  used on input line 88.
@@ -1684,7 +1684,7 @@ Package pdftex.def Info: images/Eletrica/Figura11.png  used on input line 88.
 LaTeX Warning: Reference `eq:modelo-cicindro' on page 25 undefined on input line 118.
 
 [25]
-<images/Eletrica/Figura12.png, id=413, 1296.845pt x 803.0pt>
+<images/Eletrica/Figura12.png, id=435, 1296.845pt x 803.0pt>
 File: images/Eletrica/Figura12.png Graphic file (type png)
 <use images/Eletrica/Figura12.png>
 Package pdftex.def Info: images/Eletrica/Figura12.png  used on input line 177.
@@ -1702,13 +1702,71 @@ Overfull \hbox (9.11122pt too wide) in paragraph at lines 182--183
 \T1/lmtt/m/n/12 spreadsheets / d / 1jPysggAJq _ oss58Nr7ke5LIBtbU1b9r-[]ls-[]9ijTzHxM / edit ? gid = 0 # gid =
  []
 
-[26 <./images/Eletrica/Figura12.png>] [27]) (./7programacao.tex [28] [29
+[26 <./images/Eletrica/Figura12.png>] [27]) (./5programacao.tex [28]
+<images/prog/stepconf1.png, id=454, 598.235pt x 678.535pt>
+File: images/prog/stepconf1.png Graphic file (type png)
+<use images/prog/stepconf1.png>
+Package pdftex.def Info: images/prog/stepconf1.png  used on input line 17.
+(pdftex.def)             Requested size: 432.24861pt x 490.27388pt.
+ [29
 
-] [30] [31] [32]) (./5conclusao.tex [33]) [34
+]
+<images/prog/stepconf_config.png, id=460, 1156.32pt x 840.13875pt>
+File: images/prog/stepconf_config.png Graphic file (type png)
+<use images/prog/stepconf_config.png>
+Package pdftex.def Info: images/prog/stepconf_config.png  used on input line 26.
+(pdftex.def)             Requested size: 432.24861pt x 314.05133pt.
+ [30 <./images/prog/stepconf1.png>]
+<images/Eletrica/Figura8.png, id=465, 502.87875pt x 370.38374pt>
+File: images/Eletrica/Figura8.png Graphic file (type png)
+<use images/Eletrica/Figura8.png>
+Package pdftex.def Info: images/Eletrica/Figura8.png  used on input line 35.
+(pdftex.def)             Requested size: 432.24861pt x 318.35991pt.
+ [31 <./images/prog/stepconf_config.png>] [32 <./images/Eletrica/Figura8.png>]
+<images/prog/qjoypad_config.png, id=477, 1156.32pt x 840.13875pt>
+File: images/prog/qjoypad_config.png Graphic file (type png)
+<use images/prog/qjoypad_config.png>
+Package pdftex.def Info: images/prog/qjoypad_config.png  used on input line 61.
+(pdftex.def)             Requested size: 432.24861pt x 314.05133pt.
+<images/prog/fotocontrole.png, id=478, 4015.0pt x 3011.25pt>
+File: images/prog/fotocontrole.png Graphic file (type png)
+<use images/prog/fotocontrole.png>
+Package pdftex.def Info: images/prog/fotocontrole.png  used on input line 69.
+(pdftex.def)             Requested size: 432.24861pt x 324.16255pt.
+ [33 <./images/prog/qjoypad_config.png>] [34 <./images/prog/fotocontrole.png>]
+<images/prog/cam.png, id=488, 1027.58907pt x 442.65375pt>
+File: images/prog/cam.png Graphic file (type png)
+<use images/prog/cam.png>
+Package pdftex.def Info: images/prog/cam.png  used on input line 94.
+(pdftex.def)             Requested size: 432.24861pt x 186.20374pt.
+<images/prog/cam_peça.png, id=489, 724.95844pt x 417.05812pt>
+File: images/prog/cam_peça.png Graphic file (type png)
+<use images/prog/cam_peça.png>
+Package pdftex.def Info: images/prog/cam_peça.png  used on input line 101.
+(pdftex.def)             Requested size: 432.24861pt x 248.67131pt.
+ [35 <./images/prog/cam.png> <./images/prog/cam_peça.png>]
+<images/prog/codigo_g.png, id=496, 1154.3125pt x 783.92876pt>
+File: images/prog/codigo_g.png Graphic file (type png)
+<use images/prog/codigo_g.png>
+Package pdftex.def Info: images/prog/codigo_g.png  used on input line 114.
+(pdftex.def)             Requested size: 432.24861pt x 293.5539pt.
+ [36 <./images/prog/codigo_g.png>] [37] [38]
+<images/prog/erro_g7.png, id=510, 359.3425pt x 235.88126pt>
+File: images/prog/erro_g7.png Graphic file (type png)
+<use images/prog/erro_g7.png>
+Package pdftex.def Info: images/prog/erro_g7.png  used on input line 205.
+(pdftex.def)             Requested size: 432.24861pt x 283.76154pt.
+ [39] [40 <./images/prog/erro_g7.png>]
+<images/prog/fontes.png, id=523, 1156.32pt x 315.1775pt>
+File: images/prog/fontes.png Graphic file (type png)
+<use images/prog/fontes.png>
+Package pdftex.def Info: images/prog/fontes.png  used on input line 226.
+(pdftex.def)             Requested size: 432.24861pt x 117.81615pt.
+) (./6conclusao.tex [41 <./images/prog/fontes.png>]) [42
 
-] (./6anexos.tex [35
+] (./7anexos.tex [43
 
-]) (./0main.ind) [36
+]) (./0main.ind) [44
 
 ]
 \tf@lof=\write6
@@ -1732,23 +1790,30 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to '0main.run.xml'.
 \openout1 = `0main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32666 strings out of 474272
- 571670 string characters out of 5751547
+ 32801 strings out of 474272
+ 574736 string characters out of 5751547
  1944533 words of memory out of 5000000
- 54075 multiletter control sequences out of 15000+600000
- 634358 words of font info for 159 fonts, out of 8000000 for 9000
+ 54174 multiletter control sequences out of 15000+600000
+ 637609 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1150b,4331s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 0main.pdf (41 pages, 7722998 bytes).
+
+pdfTeX warning (dest): name{section*.35} has been referenced but does not exist, replaced by a fixed one
+
+<c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 0main.pdf (49 pages, 24941476 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 672 compressed objects within 7 object streams
- 160 named destinations out of 1000 (max. 500000)
- 50265 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 895 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 52411 words of extra memory for PDF output out of 61914 (max. 10000000)
 

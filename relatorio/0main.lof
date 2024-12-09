@@ -12,3 +12,13 @@
 \contentsline {figure}{\numberline {11}{\ignorespaces Motor de passo que controla o movimento no eixo Z antes e depois do acoplamento da carga de latão.}}{23}{figure.caption.19}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Modelo do cilindro oco, para cálculo do momento de inércia de massa.}}{24}{figure.caption.20}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Gráfico do Torque (Nm) x Velocidade Linear (mm/s)}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Configuração inicial}}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Configuração dos pinos da porta paralela}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Configuração de um dos eixos}}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Mapeamento feito no qjoypad}}{33}{figure.caption.29}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Comandos mapeados indicados no Joystick}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Interface onde são inseridas informações}}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Caminho de desbaste gerado para a peça final}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Vscode com um código sendo editado}}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Erro apresentado quando G07 não está ativo}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Repositórios remotos adicionados}}{41}{figure.caption.35}%
