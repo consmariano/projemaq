@@ -1,31 +1,31 @@
 # Fdb version 4
-["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1733712231 0
+["biber 0main"] 1731873627 "0main.bcf" "0main.bbl" "0main" 1733848631 0
   "./ref.bib" 1731241392 936 c6eedffac06f826f5107171f48ca1d62 ""
-  "0main.bcf" 1733712228 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
+  "0main.bcf" 1733848628 113096 7e5ed34ca3f2d9e3669107c8e9cbab73 "pdflatex"
   (generated)
   "0main.bbl"
   "0main.blg"
   (rewritten before read)
-["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1733712231 0
-  "0main.idx" 1733712216 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex 0main.idx"] 1731873625 "0main.idx" "0main.ind" "0main" 1733848631 0
+  "0main.idx" 1733848613 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "0main.ilg"
   "0main.ind"
   (rewritten before read)
-["pdflatex"] 1733712211 "0main.tex" "0main.pdf" "0main" 1733712231 2
-  "0main.aux" 1733712228 45286 8ac70b6e3f5f819535c2456d810dee5c "pdflatex"
+["pdflatex"] 1733848606 "0main.tex" "0main.pdf" "0main" 1733848631 2
+  "0main.aux" 1733848628 45286 8ac70b6e3f5f819535c2456d810dee5c "pdflatex"
   "0main.bbl" 1731873777 2775 7e32698fd1d30474216b4e8cd8fa322c "biber 0main"
   "0main.ind" 1731873627 0 d41d8cd98f00b204e9800998ecf8427e "makeindex 0main.idx"
-  "0main.lof" 1733712228 3061 67332db817816cd7f7509d3c045d285d "pdflatex"
-  "0main.lot" 1733712228 933 9c7814e6b569840d8d90bdaa191c8d06 "pdflatex"
-  "0main.run.xml" 1733712228 2607 d672b12ef459e12043e6af38d71294b3 "pdflatex"
+  "0main.lof" 1733848628 3061 67332db817816cd7f7509d3c045d285d "pdflatex"
+  "0main.lot" 1733848628 933 9c7814e6b569840d8d90bdaa191c8d06 "pdflatex"
+  "0main.run.xml" 1733848628 2607 5e1766811d05594d37ed014b3254b76f "pdflatex"
   "0main.tex" 1733689555 12686 0eeebeb62b59bb5bb59e781655a07f0c ""
-  "0main.toc" 1733712228 7257 0d869e87379272a7ae1e934905fc32c7 "pdflatex"
+  "0main.toc" 1733848628 7257 0d869e87379272a7ae1e934905fc32c7 "pdflatex"
   "1introduction.tex" 1731877127 1474 1b9d423e8cad33c357f2f2e29de4edce ""
   "2especificacoes.tex" 1731241392 18583 c8c542bebc7114d564100c1d2bc179bc ""
   "3solucoes.tex" 1733672153 7016 c61bb80cdadc5877fe514ab4e83dfe06 ""
   "4formalizar.tex" 1733689155 12005 c19b334bd9d515df757994b4f6c13e1f ""
-  "5programacao.tex" 1733712210 18429 4ee3df3f81837b8d222f91aa274748ef ""
+  "5programacao.tex" 1733848598 18382 c3da0d81b89255e72ee396850a07b728 ""
   "6conclusao.tex" 1733689503 30 1106ba350a43d30f86614107fc7bfd8c ""
   "7anexos.tex" 1731241392 18 d6e4e6b915231c18387e04f4ebbd6435 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1699849062 2375 baa924870cfb487815765f9094cf3728 ""
@@ -226,7 +226,6 @@
   "images/Eletrica/Figura12.png" 1731241392 83291 8b5f23bb66d87d269842fc91f7120917 ""
   "images/Eletrica/Figura1a.png" 1731241392 2774318 48b036905ad189607b1266aceffbfb62 ""
   "images/Eletrica/Figura1b.png" 1731241392 2626699 bc8583a1a4e6b546ca3fca2607ad43e4 ""
-  "images/Eletrica/Figura8.png" 1731241392 216160 61f674f86f5242835317dc40a1fab5ed ""
   "images/avanco.png" 1731241392 148004 86e36e3678788e078c833e3b02fe4b5e ""
   "images/frequencia/center-mass-clamped-clamped.png" 1731241392 15347 eae2690d49ca3b171202ec3e648990f5 ""
   "images/frequencia/center-mass-pinned-pinned.png" 1731241392 15141 f32dcc70fd92b48cabde78e3c47877af ""
@@ -235,6 +234,7 @@
   "images/prog/cam.png" 1733703975 504620 2f8a70b8c2d4b7d37474c2278810a4dd ""
   "images/prog/cam_peça.png" 1733704762 270957 7f2b1a1d48d45eb3c50ea95f497871ba ""
   "images/prog/codigo_g.png" 1733184761 136486 9a3d675b9d7c13bdefe5aacd0719947b ""
+  "images/prog/eixo.png" 1733774036 74213 9e67315b87c731459241666b47b05ad7 ""
   "images/prog/erro_g7.png" 1731377162 17392 9cf7481d5122598446297d978a0eb8b3 ""
   "images/prog/fontes.png" 1733186216 62042 ba1c2e8f8b4e914f9f3d1b3f77c3299a ""
   "images/prog/fotocontrole.png" 1733700291 10831475 74fadee05669db1e61a3299bb17b2323 ""
